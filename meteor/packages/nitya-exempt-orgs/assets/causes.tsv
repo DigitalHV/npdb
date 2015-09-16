@@ -1,5 +1,4 @@
-Symbol	Label	NPDB	CATEGORY
-A01	A01 Alliance/Advocacy Organizations	Arts	Arts, Culture and Humanities
+A01	Alliance/Advocacy Organizations	Arts	Arts, Culture and Humanities
 A02 	Management & Technical Assistance	Arts	Arts, Culture and Humanities
 A03 	Professional Societies, Associations 	Arts	Arts, Culture and Humanities
 A05 	Research Institutes and/or Public Policy Analysis	Arts	Arts, Culture and Humanities
@@ -95,7 +94,7 @@ D12	Fund Raising and/or Fund Distribution	Animals	Animal-Related
 D19	Nonmonetary Support N.E.C.	Animals	Animal-Related
 D20	Animal Protection and Welfare	Animals	Animal-Related
 D30	Wildlife Preservation, Protection	Animals	Animal-Related
-D30	Protection of Endangered Species	Animals	Animal-Related
+D31	Protection of Endangered Species	Animals	Animal-Related
 D32	Bird Sanctuary, Preserve	Animals	Animal-Related
 D33	Fisheries Resources	Animals	Animal-Related
 D34	Wildlife Sanctuary, Refuge	Animals	Animal-Related
@@ -141,7 +140,7 @@ F12	Fund Raising and/or Fund Distribution	Crisis Intervention	Mental Health, Cri
 F19	Nonmonetary Support N.E.C.	Crisis Intervention	Mental Health, Crisis Intervention
 F20	Alcohol, Drug and Substance Abuse, Dependency Prevention and  Treatment	Crisis Intervention	Mental Health, Crisis Intervention
 F21	Alcohol, Drug Abuse, Prevention Only	Crisis Intervention	Mental Health, Crisis Intervention
-F21	Alcohol, Drug Abuse, Treatment Only	Crisis Intervention	Mental Health, Crisis Intervention
+F22	Alcohol, Drug Abuse, Treatment Only	Crisis Intervention	Mental Health, Crisis Intervention
 F30	Mental Health Treatment - Multipurpose and N.E.C.	Crisis Intervention	Mental Health, Crisis Intervention
 F31	Psychiatric, Mental Health Hospital	Crisis Intervention	Mental Health, Crisis Intervention
 F32	Community Mental Health Center	Crisis Intervention	Mental Health, Crisis Intervention
@@ -459,7 +458,7 @@ R63	Censorship, Freedom of Speech and Press Issues	Human Rights	Civil Rights, So
 R67	Right to Die, Euthanasia Issues	Human Rights	Civil Rights, Social Action, Advocacy
 R99	Civil Rights, Social Action, Advocacy N.E.C.	Human Rights	Civil Rights, Social Action, Advocacy
 S01	Alliance/Advocacy Organizations	Community Improvement	Community Improvement, Capacity Building
-S01	Management & Technical Assistance	Community Improvement	Community Improvement, Capacity Building
+S02	Management & Technical Assistance	Community Improvement	Community Improvement, Capacity Building
 S03	Professional Societies, Associations	Community Improvement	Community Improvement, Capacity Building
 S05	Research Institutes and/or Public Policy Analysis	Community Improvement	Community Improvement, Capacity Building
 S11	Single Organization Support	Community Improvement	Community Improvement, Capacity Building
@@ -552,7 +551,7 @@ W20	Government and Public Administration	Science	Public, Society Benefit – Mul
 W22	Public Finance, Taxation, Monetary Policy	Science	Public, Society Benefit – Multipurpose and Other
 W24	Citizen Participation	Science	Public, Society Benefit – Multipurpose and Other
 W30	Military, Veterans Organizations	Science	Public, Society Benefit – Multipurpose and Other
-W30	Public Transportation Systems, Services	Science	Public, Society Benefit – Multipurpose and Other
+W40	Public Transportation Systems, Services	Science	Public, Society Benefit – Multipurpose and Other
 W50	Telephone, Telegraph and Telecommunication Services	Science	Public, Society Benefit – Multipurpose and Other
 W60	Financial Institutions, Services (Non-Government Related)	Science	Public, Society Benefit – Multipurpose and Other
 W61	Credit Unions	Science	Public, Society Benefit – Multipurpose and Other

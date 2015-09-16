@@ -40,7 +40,6 @@ Initialize from Fixtures
     SORT_NAME           : -
   },
 */
-var fs = Npm.require('fs');
 
 var getClassification = function(data){
   var classification = [], bit=null;
@@ -272,14 +271,21 @@ var loadCauseFixtures = function(asset){
     var data = res.split('\r\n');
     console.log(data.length);
 
-    var item=null;
+    var cause=null,item=null;
     _.each(data, function(record, index){
-      console.log("Record: "+record);
-
       item = record.split("\t");
-      console.log("Cause: ntee-code="+item[0]+
-          ", desc="+item[1]+
-          ", cause="+item[2]);
+      cause = {
+        symbol : item[0],
+        label  : item[1],
+        name   : item[2],
+        category: item[3]
+      };
+      console.log("Cause: ",cause);
+
+      check(cause, Schemas.Cause);
+      cause._id = "ntee_"+item[0];
+      cause.createdAt = new Date();
+      Causes.insert(cause);
     })
   });
 };
@@ -293,13 +299,14 @@ STARTING POINT
 
 Meteor.startup(function(){
 
+  console.log("Clearing Orgs fixtures");
+  Causes.remove({});
+  Orgs.remove({ fixture:true });
+
   console.log("Adding Causes fixtures");
   loadCauseFixtures('assets/causes.tsv');
 
   /*
-	console.log("Clearing Orgs fixtures");
-	Orgs.remove({fixture:true});
-
   console.log("Adding Orgs fixtures");
   var errs = Methods.loadOrgFixtures();
   console.log("Err Count="+errs);

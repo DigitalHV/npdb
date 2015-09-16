@@ -623,3 +623,10 @@ Schemas.Org = new SimpleSchema({
 
 Orgs = new Mongo.Collection("orgs");
 Orgs.attachSchema(Schemas.Org, {transform: true});
+
+
+Orgs.helpers({
+	cause: function(){
+		return Causes.find({ symbol: this.nteeCode});
+	}
+});

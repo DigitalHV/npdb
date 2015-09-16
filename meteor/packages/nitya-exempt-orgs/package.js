@@ -23,6 +23,7 @@ Package.onUse(function(api) {
   // Add common files
   api.addFiles([
     'lib/namespace.js',
+    'lib/models/causes.js',
     'lib/models/orgs.js',
   ], ['client','server']);
 
@@ -133,6 +134,7 @@ Package.onUse(function(api) {
   api.export([
     'Schemas',
     'Orgs',
+    'Causes',
     'AllowedValues',
     'Methods'
   ]);
