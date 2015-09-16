@@ -220,9 +220,17 @@ Methods.loadOrgFixtures = function(){
     loadOrgAsset(file,3);
   });
 
+  /*
+  
+   * LEAVING OUT REGION 4
+   *  These are addresses outside USA and will not validate
+   *  given our address schema constraint
+   *
+
   _.each(region4, function(file){
     loadOrgAsset(file,4);
   });
+  */
 
   return errCount;
 };
@@ -241,17 +249,21 @@ var loadOrgAsset = function(asset, region){
     // skip first row as header
     _.each(data, function(record, index){
 
-      try { org = parseRecord(record,region);  }
+      try { 
+        org = parseRecord(record,region);  
+      } 
       catch(err){
         console.log("[Parse Error] Region="+region+",  EIN="+ org.ein +", desc=" + org.description);
         return;
       }
 
-      try { check(org, Schemas.Org); }
+      try { 
+        check(org, Schemas.Org); 
+      }
       catch(err){
         errCount++;
-        console.log("[Validation Error] Region="+region+",  EIN="+ org.ein +", desc=" + org.description);
-        return;
+        console.log("[Validation Error] err="+err+", org=",org);
+        //return;
       }
 
       org.fixture = true;
@@ -260,7 +272,7 @@ var loadOrgAsset = function(asset, region){
   });
 };
 
-var loadCauseFixtures = function(asset){
+Methods.loadCauseFixtures = function(asset){
   Assets.getText(asset, function(err,res){
     if (err){
       console.log("*Error*: Loading causes data from "+asset);
@@ -269,7 +281,6 @@ var loadCauseFixtures = function(asset){
 
     console.log("Success: Loading causes data from "+asset);
     var data = res.split('\r\n');
-    console.log(data.length);
 
     var cause=null,item=null;
     _.each(data, function(record, index){
@@ -280,7 +291,7 @@ var loadCauseFixtures = function(asset){
         name   : item[2],
         category: item[3]
       };
-      console.log("Cause: ",cause);
+      //console.log("Cause: ",cause);
 
       check(cause, Schemas.Cause);
       cause._id = "ntee_"+item[0];
@@ -304,13 +315,12 @@ Meteor.startup(function(){
   Orgs.remove({ fixture:true });
 
   console.log("Adding Causes fixtures");
-  loadCauseFixtures('assets/causes.tsv');
+  Methods.loadCauseFixtures('assets/causes.tsv');
 
-  /*
   console.log("Adding Orgs fixtures");
   var errs = Methods.loadOrgFixtures();
   console.log("Err Count="+errs);
-  */
+
 
 });
 
