@@ -43,6 +43,8 @@ Package.onUse(function(api) {
   // for example function and usage
   //
   api.addFiles([
+    'assets/causes.tsv',
+
     'assets/eo/1/eo1_aa.csv',
     'assets/eo/1/eo1_ab.csv',
     'assets/eo/1/eo1_ac.csv',

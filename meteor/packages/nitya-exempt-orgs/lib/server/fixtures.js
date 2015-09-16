@@ -115,9 +115,8 @@ LOAD FIXTURE DATA
 */
 var errCount=0;
 
-Methods.loadFixtures = function(){
-
-  console.log("Loading initial fixtures..");
+Methods.loadOrgFixtures = function(){
+  console.log("Loading org fixtures..");
   errCount=0;
 
   // Copied from package.js
@@ -211,33 +210,25 @@ Methods.loadFixtures = function(){
   ];
 
   _.each(region1, function(file){ 
-    loadAsset(file,1);
+    loadOrgAsset(file,1);
   });
 
   _.each(region2, function(file){
-    loadAsset(file,2);
+    loadOrgAsset(file,2);
   });
 
   _.each(region3, function(file){
-    loadAsset(file,3);
+    loadOrgAsset(file,3);
   });
 
   _.each(region4, function(file){
-    loadAsset(file,4);
+    loadOrgAsset(file,4);
   });
 
-
-  /*
-  loadAsset('assets/eo1.csv',1);
-  loadAsset('assets/eo2.csv',2);
-  loadAsset('assets/eo3.csv',3);
-  loadAsset('assets/eo4.csv',4);
-  */
   return errCount;
 };
 
-var loadAsset = function(asset, region){
-
+var loadOrgAsset = function(asset, region){
   Assets.getText(asset, function(err, res){
     if (err){
       console.log("*Error*: Loading data for Region "+region+" from "+asset);
@@ -246,37 +237,52 @@ var loadAsset = function(asset, region){
 
     console.log("Success: Loading data for Region "+region+"  from "+asset);
     var data = res.split('\r\n'),
-        org = null,
-        header = true;
+        org = null;
 
     // skip first row as header
     _.each(data, function(record, index){
-      
-      if (header) { 
-        header=false;
-        return;
-      }
 
       try { org = parseRecord(record,region);  }
       catch(err){
-        errCount++;
         console.log("[Parse Error] Region="+region+",  EIN="+ org.ein +", desc=" + org.description);
-        //return;
+        return;
       }
 
       try { check(org, Schemas.Org); }
       catch(err){
         errCount++;
         console.log("[Validation Error] Region="+region+",  EIN="+ org.ein +", desc=" + org.description);
-        //return;
+        return;
       }
 
       org.fixture = true;
       Orgs.insert(org);
     });
-
   });
-}
+};
+
+var loadCauseFixtures = function(asset){
+  Assets.getText(asset, function(err,res){
+    if (err){
+      console.log("*Error*: Loading causes data from "+asset);
+      return;
+    }
+
+    console.log("Success: Loading causes data from "+asset);
+    var data = res.split('\r\n');
+    console.log(data.length);
+
+    var item=null;
+    _.each(data, function(record, index){
+      console.log("Record: "+record);
+
+      item = record.split("\t");
+      console.log("Cause: ntee-code="+item[0]+
+          ", desc="+item[1]+
+          ", cause="+item[2]);
+    })
+  });
+};
 
 
 /*
@@ -287,12 +293,18 @@ STARTING POINT
 
 Meteor.startup(function(){
 
+  console.log("Adding Causes fixtures");
+  loadCauseFixtures('assets/causes.tsv');
+
+  /*
 	console.log("Clearing Orgs fixtures");
 	Orgs.remove({fixture:true});
 
-	console.log("Adding Orgs fixtures");
-	var errs = Methods.loadFixtures();
+  console.log("Adding Orgs fixtures");
+  var errs = Methods.loadOrgFixtures();
   console.log("Err Count="+errs);
+  */
+
 });
 
 

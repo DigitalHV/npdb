@@ -1,0 +1,606 @@
+Symbol	Label	NPDB	CATEGORY
+A01	A01 Alliance/Advocacy Organizations	Arts	Arts, Culture and Humanities
+A02 	Management & Technical Assistance	Arts	Arts, Culture and Humanities
+A03 	Professional Societies, Associations 	Arts	Arts, Culture and Humanities
+A05 	Research Institutes and/or Public Policy Analysis	Arts	Arts, Culture and Humanities
+A11 	Single Organization Support	Arts	Arts, Culture and Humanities
+A12 	Fund Raising and/or Fund Distribution	Arts	Arts, Culture and Humanities
+A19 	Nonmonetary Support N.E.C.*	Arts	Arts, Culture and Humanities
+A20	Arts, Cultural Organizations - Multipurpose	Arts	Arts, Culture and Humanities
+A23	Cultural, Ethnic Awareness	Arts	Arts, Culture and Humanities
+A25	Arts Education	Arts	Arts, Culture and Humanities
+A26	Arts Council/Agency	Arts	Arts, Culture and Humanities
+A30	Media, Communications Organizations	Arts	Arts, Culture and Humanities
+A31	Film, Video	Arts	Arts, Culture and Humanities
+A32	Television	Arts	Arts, Culture and Humanities
+A33	Printing, Publishing	Arts	Arts, Culture and Humanities
+A34	Radio	Arts	Arts, Culture and Humanities
+A40	Visual Arts Organizations	Arts	Arts, Culture and Humanities
+A50	Museum, Museum Activities	Arts	Arts, Culture and Humanities
+A51	Art Museums	Arts	Arts, Culture and Humanities
+A52	Childrens Museums	Arts	Arts, Culture and Humanities
+A54	History Museums	Arts	Arts, Culture and Humanities
+A56	Natural History, Natural Science Museums	Arts	Arts, Culture and Humanities
+A57	Science and Technology Museums	Arts	Arts, Culture and Humanities
+A60	Performing Arts Organizations	Arts	Arts, Culture and Humanities
+A61	Performing Arts Centers	Arts	Arts, Culture and Humanities
+A62	Dance	Arts	Arts, Culture and Humanities
+A63	Ballet	Arts	Arts, Culture and Humanities
+A65	Theater	Arts	Arts, Culture and Humanities
+A68	Music	Arts	Arts, Culture and Humanities
+A69	Symphony Orchestras	Arts	Arts, Culture and Humanities
+A6A	Opera	Arts	Arts, Culture and Humanities
+A6B	Singing, Choral	Arts	Arts, Culture and Humanities
+A6C	Music Groups, Bands, Ensembles	Arts	Arts, Culture and Humanities
+A6E	 Performing Arts Schools	Arts	Arts, Culture and Humanities
+A70	Humanities Organizations	Arts	Arts, Culture and Humanities
+A80	Historical Societies, Related Historical Activities	Arts	Arts, Culture and Humanities
+A84	Commemorative Events	Arts	Arts, Culture and Humanities
+A90	Arts Service Organizations and Activities	Arts	Arts, Culture and Humanities
+A99	Arts, Culture, and Humanities N.E.C.	Arts	Arts, Culture and Humanities
+B01	Alliance/Advocacy Organizations	Education	Educational Institutions and Related Activities
+B02	Management & Technical Assistance	Education	Educational Institutions and Related Activities
+B03	Professional Societies, Associations	Education	Educational Institutions and Related Activities
+BO5	Research Institutes and/or Public Policy Analysis	Education	Educational Institutions and Related Activities
+B11	Single Organization Support	Education	Educational Institutions and Related Activities
+B12	Fund Raising and/or Fund Distribution	Education	Educational Institutions and Related Activities
+B19	Nonmonetary Support N.E.C.	Education	Educational Institutions and Related Activities
+B20	Elementary, Secondary Education, K - 12	Education	Educational Institutions and Related Activities
+B21	Kindergarten, Preschool, Nursery School, Early Admissions	Education	Educational Institutions and Related Activities
+B24	Primary, Elementary Schools	Education	Educational Institutions and Related Activities
+B25	Secondary, High School	Education	Educational Institutions and Related Activities
+B28	Specialized Education Institutions	Education	Educational Institutions and Related Activities
+B30	Vocational, Technical Schools	Education	Educational Institutions and Related Activities
+B40	Higher Education Institutions	Education	Educational Institutions and Related Activities
+B41	Community or Junior Colleges	Education	Educational Institutions and Related Activities
+B42	Undergraduate College (4-year)	Education	Educational Institutions and Related Activities
+B43	University or Technological Institute	Education	Educational Institutions and Related Activities
+B50	Graduate, Professional Schools (Separate Entities) 	Education	Educational Institutions and Related Activities
+B60	Adult, Continuing Education	Education	Educational Institutions and Related Activities
+B70	Libraries	Education	Educational Institutions and Related Activities
+B80	Student Services, Organizations of Students	Education	Educational Institutions and Related Activities
+B82	Scholarships, Student Financial Aid Services, Awards	Education	Educational Institutions and Related Activities
+B83	Student Sororities, Fraternities	Education	Educational Institutions and Related Activities
+B84	Alumni Associations	Education	Educational Institutions and Related Activities
+B90	Educational Services and Schools - Other	Education	Educational Institutions and Related Activities
+B92	Remedial Reading, Reading Encouragement	Education	Educational Institutions and Related Activities
+B94	Parent/Teacher Group	Education	Educational Institutions and Related Activities
+B99	Education N.E.C.	Education	Educational Institutions and Related Activities
+C01	Alliance/Advocacy Organizations	Environment	Environmental Quality, Protection and Beautification
+C02	Management & Technical Assistance	Environment	Environmental Quality, Protection and Beautification
+C03	Professional Societies, Associations	Environment	Environmental Quality, Protection and Beautification
+C05	Research Institutes and/or Public Policy Analysis	Environment	Environmental Quality, Protection and Beautification
+C11	Single Organization Support	Environment	Environmental Quality, Protection and Beautification
+C12	Fund Raising and/or Fund Distribution	Environment	Environmental Quality, Protection and Beautification
+C19	Nonmonetary Support N.E.C.	Environment	Environmental Quality, Protection and Beautification
+C20	Pollution Abatement and Control Services	Environment	Environmental Quality, Protection and Beautification
+C27	Recycling Programs	Environment	Environmental Quality, Protection and Beautification
+C30	Natural Resources Conservation and Protection	Environment	Environmental Quality, Protection and Beautification
+C32	Water Resource, Wetlands Conservation and Management	Environment	Environmental Quality, Protection and Beautification
+C34	Land Resources Conservation	Environment	Environmental Quality, Protection and Beautification
+C35	Energy Resources Conservation and Development	Environment	Environmental Quality, Protection and Beautification
+C36	Forest Conservation	Environment	Environmental Quality, Protection and Beautification
+C40	Botanical, Horticultural, and Landscape Services	Environment	Environmental Quality, Protection and Beautification
+C41	Botanical Gardens, Arboreta and Botanical Organizations	Environment	Environmental Quality, Protection and Beautification
+C42	Garden Club, Horticultural Program	Environment	Environmental Quality, Protection and Beautification
+C50	Environmental Beautification and Aesthetics	Environment	Environmental Quality, Protection and Beautification
+C60	Environmental Education and Outdoor Survival Programs	Environment	Environmental Quality, Protection and Beautification
+C99	Environmental Quality, Protection, and Beautification N.E.C.	Environment	Environmental Quality, Protection and Beautification
+D01	Alliance/Advocacy Organizations	Animals	Animal-Related
+D02	Management & Technical Assistance	Animals	Animal-Related
+D03	Professional Societies, Associations	Animals	Animal-Related
+D05	Research Institutes and/or Public Policy Analysis	Animals	Animal-Related
+D11	Single Organization Support	Animals	Animal-Related
+D12	Fund Raising and/or Fund Distribution	Animals	Animal-Related
+D19	Nonmonetary Support N.E.C.	Animals	Animal-Related
+D20	Animal Protection and Welfare	Animals	Animal-Related
+D30	Wildlife Preservation, Protection	Animals	Animal-Related
+D30	Protection of Endangered Species	Animals	Animal-Related
+D32	Bird Sanctuary, Preserve	Animals	Animal-Related
+D33	Fisheries Resources	Animals	Animal-Related
+D34	Wildlife Sanctuary, Refuge	Animals	Animal-Related
+D40	Veterinary Services	Animals	Animal-Related
+D50	Zoo, Zoological Society	Animals	Animal-Related
+D60	Other Services - Specialty Animals	Animals	Animal-Related
+D61	Animal Training, Behavior	Animals	Animal-Related
+D99	Animal-Related N.E.C.	Animals	Animal-Related
+E01	Alliance/Advocacy Organizations	Health	Health – General and Rehabilitative
+E02	Management & Technical Assistance 	Health	Health – General and Rehabilitative
+E03	Professional Societies, Associations	Health	Health – General and Rehabilitative
+E05	Research Institutes and/or Public Policy Analysis	Health	Health – General and Rehabilitative
+E11	Single Organization Support	Health	Health – General and Rehabilitative
+E12	Fund Raising and/or Fund Distribution	Health	Health – General and Rehabilitative
+E19	Nonmonetary Support N.E.C.	Health	Health – General and Rehabilitative
+E20	Hospitals and Related Primary Medical Care Facilities	Health	Health – General and Rehabilitative
+E21	Community Health Systems	Health	Health – General and Rehabilitative
+E22	Hospital, General	Health	Health – General and Rehabilitative
+E24	Hospital, Specialty	Health	Health – General and Rehabilitative
+E30	Health Treatment Facilities, Primarily Outpatient	Health	Health – General and Rehabilitative
+E31	Group Health Practice (Health Maintenance Organizations)	Health	Health – General and Rehabilitative
+E32	Ambulatory Health Center, Community Clinic	Health	Health – General and Rehabilitative
+E40	Reproductive Health Care Facilities and Allied Services	Health	Health – General and Rehabilitative
+E42	Family Planning Centers	Health	Health – General and Rehabilitative
+E50	Rehabilitative Medical Services	Health	Health – General and Rehabilitative
+E60	Health Support Services	Health	Health – General and Rehabilitative
+E61	Blood Supply Related	Health	Health – General and Rehabilitative
+E62	Ambulance, Emergency Medical Transport Services	Health	Health – General and Rehabilitative
+E65	Organ and Tissue Banks	Health	Health – General and Rehabilitative
+E70	Public Health Program (Includes General Health and Wellness Promotion  Services)	Health	Health – General and Rehabilitative
+E80	Health, General and Financing	Health	Health – General and Rehabilitative
+E86	Patient Services - Entertainment, Recreation	Health	Health – General and Rehabilitative
+E90	Nursing Services (General)	Health	Health – General and Rehabilitative
+E91	Nursing, Convalescent Facilities	Health	Health – General and Rehabilitative
+E92	Home Health Care	Health	Health – General and Rehabilitative
+E99	Health - General and Rehabilitative N.E.C.	Health	Health – General and Rehabilitative
+F01	Alliance/Advocacy Organizations	Crisis Intervention	Mental Health, Crisis Intervention
+F02	Management & Technical Assistance	Crisis Intervention	Mental Health, Crisis Intervention
+F03	Professional Societies, Associations	Crisis Intervention	Mental Health, Crisis Intervention
+F05	Research Institutes and/or Public Policy Analysis	Crisis Intervention	Mental Health, Crisis Intervention
+F11	Single Organization Support	Crisis Intervention	Mental Health, Crisis Intervention
+F12	Fund Raising and/or Fund Distribution	Crisis Intervention	Mental Health, Crisis Intervention
+F19	Nonmonetary Support N.E.C.	Crisis Intervention	Mental Health, Crisis Intervention
+F20	Alcohol, Drug and Substance Abuse, Dependency Prevention and  Treatment	Crisis Intervention	Mental Health, Crisis Intervention
+F21	Alcohol, Drug Abuse, Prevention Only	Crisis Intervention	Mental Health, Crisis Intervention
+F21	Alcohol, Drug Abuse, Treatment Only	Crisis Intervention	Mental Health, Crisis Intervention
+F30	Mental Health Treatment - Multipurpose and N.E.C.	Crisis Intervention	Mental Health, Crisis Intervention
+F31	Psychiatric, Mental Health Hospital	Crisis Intervention	Mental Health, Crisis Intervention
+F32	Community Mental Health Center	Crisis Intervention	Mental Health, Crisis Intervention
+F33	Group Home, Residential Treatment Facility - Mental Health Related	Crisis Intervention	Mental Health, Crisis Intervention
+F40	Hot Line, Crisis Intervention Services	Crisis Intervention	Mental Health, Crisis Intervention
+F42	Rape Victim Services	Crisis Intervention	Mental Health, Crisis Intervention
+F50	Addictive Disorders N.E.C.	Crisis Intervention	Mental Health, Crisis Intervention
+F52	Smoking Addiction	Crisis Intervention	Mental Health, Crisis Intervention
+F53	Eating Disorder, Addiction	Crisis Intervention	Mental Health, Crisis Intervention
+F54	Gambling Addiction	Crisis Intervention	Mental Health, Crisis Intervention
+F60	Counseling, Support Groups	Crisis Intervention	Mental Health, Crisis Intervention
+F70	Mental Health Disorders	Crisis Intervention	Mental Health, Crisis Intervention
+F80	Mental Health Association, Multipurpose	Crisis Intervention	Mental Health, Crisis Intervention
+F99	Mental Health, Crisis Intervention N.E.C.	Crisis Intervention	Mental Health, Crisis Intervention
+G01	Alliance/Advocacy Organizations	Medical Disciplines	Diseases, Disorders, Medical Disciplines
+G02	Management & Technical Assistance	Medical Disciplines	Diseases, Disorders, Medical Disciplines
+G03	Professional Societies, Associations	Medical Disciplines	Diseases, Disorders, Medical Disciplines
+G05	Research Institutes and/or Public Policy Analysis	Medical Disciplines	Diseases, Disorders, Medical Disciplines
+G11	Single Organization Support	Medical Disciplines	Diseases, Disorders, Medical Disciplines
+G12	Fund Raising and/or Fund Distribution	Medical Disciplines	Diseases, Disorders, Medical Disciplines
+G19	Nonmonetary Support N.E.C.	Medical Disciplines	Diseases, Disorders, Medical Disciplines
+G20	Birth Defects and Genetic Diseases	Medical Disciplines	Diseases, Disorders, Medical Disciplines
+G25	Down Syndrome	Medical Disciplines	Diseases, Disorders, Medical Disciplines
+G30	Cancer	Medical Disciplines	Diseases, Disorders, Medical Disciplines
+G40	Diseases of Specific Organs	Medical Disciplines	Diseases, Disorders, Medical Disciplines
+G41	Eye Diseases, Blindness and Vision Impairments	Medical Disciplines	Diseases, Disorders, Medical Disciplines
+G42	Ear and Throat Diseases	Medical Disciplines	Diseases, Disorders, Medical Disciplines
+G43	Heart and Circulatory System Diseases, Disorders	Medical Disciplines	Diseases, Disorders, Medical Disciplines
+G44	Kidney Disease	Medical Disciplines	Diseases, Disorders, Medical Disciplines
+G45	Lung Disease	Medical Disciplines	Diseases, Disorders, Medical Disciplines
+G48	Brain Disorders	Medical Disciplines	Diseases, Disorders, Medical Disciplines
+G50	Nerve, Muscle and Bone Diseases	Medical Disciplines	Diseases, Disorders, Medical Disciplines
+G51	Arthritis	Medical Disciplines	Diseases, Disorders, Medical Disciplines
+G54	Epilepsy	Medical Disciplines	Diseases, Disorders, Medical Disciplines
+G60	Allergy Related Diseases	Medical Disciplines	Diseases, Disorders, Medical Disciplines
+G61	Asthma	Medical Disciplines	Diseases, Disorders, Medical Disciplines
+G70	Digestive Diseases, Disorders	Medical Disciplines	Diseases, Disorders, Medical Disciplines
+G80	Specifically Named Diseases	Medical Disciplines	Diseases, Disorders, Medical Disciplines
+G81	AIDS	Medical Disciplines	Diseases, Disorders, Medical Disciplines
+G83	Alzheimers Disease	Medical Disciplines	Diseases, Disorders, Medical Disciplines
+G84	Autism	Medical Disciplines	Diseases, Disorders, Medical Disciplines
+G90	Medical Disciplines	Medical Disciplines	Diseases, Disorders, Medical Disciplines
+G92	Biomedicine, Bioengineering	Medical Disciplines	Diseases, Disorders, Medical Disciplines
+G94	Geriatrics	Medical Disciplines	Diseases, Disorders, Medical Disciplines
+G96	Neurology, Neuroscience	Medical Disciplines	Diseases, Disorders, Medical Disciplines
+G98	Pediatrics	Medical Disciplines	Diseases, Disorders, Medical Disciplines
+G9B	Surgery	Medical Disciplines	Diseases, Disorders, Medical Disciplines
+G99	Diseases, Disorders, Medical Disciplines N.E.C.	Medical Disciplines	Diseases, Disorders, Medical Disciplines
+H01	Alliance/Advocacy Organizations	Medical Research	Medical Research
+H02	Management & Technical Assistance	Medical Research	Medical Research
+H03	Professional Societies, Associations	Medical Research	Medical Research
+H05	Research Institutes and/or Public Policy Analysis	Medical Research	Medical Research
+H11	Single Organization Support	Medical Research	Medical Research
+H12	Fund Raising and/or Fund Distribution	Medical Research	Medical Research
+H19	Nonmonetary Support N.E.C.	Medical Research	Medical Research
+H20	Birth Defects, Genetic Diseases Research	Medical Research	Medical Research
+H25	Down Syndrome Research	Medical Research	Medical Research
+H30	Cancer Research	Medical Research	Medical Research
+H40	Specific Organ Research	Medical Research	Medical Research
+H41	Eye Research	Medical Research	Medical Research
+H42	Ear and Throat Research	Medical Research	Medical Research
+H43	Heart, Circulatory Research	Medical Research	Medical Research
+H44	Kidney Research	Medical Research	Medical Research
+H45	Lung Research	Medical Research	Medical Research
+H48	Brain Disorders Research	Medical Research	Medical Research
+H50	Nerve, Muscle, Bone Research	Medical Research	Medical Research
+H51	Arthritis Research	Medical Research	Medical Research
+H54	Epilepsy Research 	Medical Research	Medical Research
+H60	Allergy Related Disease Research	Medical Research	Medical Research
+H61	Asthma Research	Medical Research	Medical Research
+H70	Digestive Disease, Disorder Research	Medical Research	Medical Research
+H80	Specifically Named Diseases Research	Medical Research	Medical Research
+H81	AIDS Research	Medical Research	Medical Research
+H83	Alzheimers Disease Research	Medical Research	Medical Research
+H84	Autism Research	Medical Research	Medical Research
+H90	Medical Specialty Research	Medical Research	Medical Research
+H92	Biomedicine, Bioengineering Research	Medical Research	Medical Research
+H94	Geriatrics Research	Medical Research	Medical Research
+H96	Neurology, Neuroscience Research	Medical Research	Medical Research
+H98	Pediatrics Research	Medical Research	Medical Research
+H9B	Surgery Research	Medical Research	Medical Research
+H99	Medical Research N.E.C.	Medical Research	Medical Research
+I01	Alliance/Advocacy Organizations	Public Safety	Crime, Legal-Related
+I02	Management & Technical Assistance	Public Safety	Crime, Legal-Related
+I03	Professional Societies, Associations	Public Safety	Crime, Legal-Related
+I05	Research Institutes and/or Public Policy Analysis	Public Safety	Crime, Legal-Related
+I11	Single Organization Support	Public Safety	Crime, Legal-Related
+I12	Fund Raising and/or Fund Distribution	Public Safety	Crime, Legal-Related
+I19	Nonmonetary Support N.E.C.	Public Safety	Crime, Legal-Related
+I20	Crime Prevention N.E.C.	Public Safety	Crime, Legal-Related
+I21	Delinquency Prevention	Public Safety	Crime, Legal-Related
+I23	Drunk Driving Related	Public Safety	Crime, Legal-Related
+I30	Correctional Facilities N.E.C.	Public Safety	Crime, Legal-Related
+I31	Transitional Care, Half-Way House for Offenders, Ex-Offenders	Public Safety	Crime, Legal-Related
+I40	Rehabilitation Services for Offenders	Public Safety	Crime, Legal-Related
+I43	Services to Prisoners and Families - Multipurpose	Public Safety	Crime, Legal-Related
+I44	Prison Alternatives	Public Safety	Crime, Legal-Related
+I50	Administration of Justice, Courts	Public Safety	Crime, Legal-Related
+I51	Dispute Resolution, Mediation Services	Public Safety	Crime, Legal-Related
+I60	Law Enforcement Agencies (Police Departments)	Public Safety	Crime, Legal-Related
+I70	Protection Against, Prevention of Neglect, Abuse, Exploitation	Public Safety	Crime, Legal-Related
+I71	Spouse Abuse, Prevention of	Public Safety	Crime, Legal-Related
+I72	Child Abuse, Prevention of	Public Safety	Crime, Legal-Related
+I73	Sexual Abuse, Prevention of	Public Safety	Crime, Legal-Related
+I80	Legal Services	Public Safety	Crime, Legal-Related
+I83	Public Interest Law, Litigation	Public Safety	Crime, Legal-Related
+I99	Crime, Legal Related N.E.C.	Public Safety	Crime, Legal-Related
+J01	Alliance/Advocacy Organizations	Employment	Employment, Job-Related
+J02	Management & Technical Assistance	Employment	Employment, Job-Related
+J03	Professional Societies, Associations	Employment	Employment, Job-Related
+J05	Research Institutes and/or Public Policy Analysis	Employment	Employment, Job-Related
+J11	Single Organization Support	Employment	Employment, Job-Related
+J12	Fund Raising and/or Fund Distribution	Employment	Employment, Job-Related
+J19	Nonmonetary Support N.E.C.	Employment	Employment, Job-Related
+J20	Employment Procurement Assistance, Job Training	Employment	Employment, Job-Related
+J21	Vocational Counseling, Guidance and Testing	Employment	Employment, Job-Related
+J22	Vocational Training	Employment	Employment, Job-Related
+J30	Vocational Rehabilitation	Employment	Employment, Job-Related
+J32	Goodwill Industries	Employment	Employment, Job-Related
+J33	Sheltered Remunerative Employment, Work Activity Center N.E.C. 	Employment	Employment, Job-Related
+J40	Labor Unions, Organizations	Employment	Employment, Job-Related
+J99	Employment, Job Related N.E.C.	Employment	Employment, Job-Related
+K01	Alliance/Advocacy Organizations	Food	Food, Agriculture and Nutrition
+K02	Management & Technical Assistance	Food	Food, Agriculture and Nutrition
+K03	Professional Societies, Associations	Food	Food, Agriculture and Nutrition
+K05	Research Institutes and/or Public Policy Analysis	Food	Food, Agriculture and Nutrition
+K11	Single Organization Support	Food	Food, Agriculture and Nutrition
+K12	Fund Raising and/or Fund Distribution	Food	Food, Agriculture and Nutrition
+K19	Nonmonetary Support N.E.C.	Food	Food, Agriculture and Nutrition
+K20	Agricultural Programs	Food	Food, Agriculture and Nutrition
+K25	Farmland Preservation	Food	Food, Agriculture and Nutrition
+K26	Livestock Breeding, Development, Management	Food	Food, Agriculture and Nutrition
+K28	Farm Bureau, Grange	Food	Food, Agriculture and Nutrition
+K30	Food Service, Free Food Distribution Programs	Food	Food, Agriculture and Nutrition
+K31	Food Banks, Food Pantries	Food	Food, Agriculture and Nutrition
+K34	Congregate Meals	Food	Food, Agriculture and Nutrition
+K35	Eatery, Agency, Organization Sponsored	Food	Food, Agriculture and Nutrition
+K36	Meals on Wheels	Food	Food, Agriculture and Nutrition
+K40	Nutrition Programs	Food	Food, Agriculture and Nutrition
+K50	Home Economics	Food	Food, Agriculture and Nutrition
+K99	Food, Agriculture, and Nutrition N.E.C.	Food	Food, Agriculture and Nutrition
+L01	Alliance/Advocacy Organizations	Housing & Shelter	Housing, Shelter
+L02	Management & Technical Assistance	Housing & Shelter	Housing, Shelter
+L03	Professional Societies, Associations	Housing & Shelter	Housing, Shelter
+L05	Research Institutes and/or Public Policy Analysis	Housing & Shelter	Housing, Shelter
+L11	Single Organization Support	Housing & Shelter	Housing, Shelter
+L12	Fund Raising and/or Fund Distribution	Housing & Shelter	Housing, Shelter
+L19	Nonmonetary Support N.E.C.	Housing & Shelter	Housing, Shelter
+L20	Housing Development, Construction, Management	Housing & Shelter	Housing, Shelter
+L21	Public Housing Facilities	Housing & Shelter	Housing, Shelter
+L22	Senior Citizens Housing/Retirement Communities	Housing & Shelter	Housing, Shelter
+L25	Housing Rehabilitation	Housing & Shelter	Housing, Shelter
+L30	Housing Search Assistance	Housing & Shelter	Housing, Shelter
+L40	Low-Cost Temporary Housing	Housing & Shelter	Housing, Shelter
+L41	Homeless, Temporary Shelter For	Housing & Shelter	Housing, Shelter
+L50	Housing Owners, Renters Organizations	Housing & Shelter	Housing, Shelter
+L80	Housing Support Services -- Other	Housing & Shelter	Housing, Shelter
+L81	Home Improvement and Repairs	Housing & Shelter	Housing, Shelter
+L82	Housing Expense Reduction Support	Housing & Shelter	Housing, Shelter
+L99	Housing, Shelter N.E.C.	Housing & Shelter	Housing, Shelter
+M01	Alliance/Advocacy Organizations	Disaster Relief	Public Safety, Disaster Preparedness and Relief
+M02	Management & Technical Assistance	Disaster Relief	Public Safety, Disaster Preparedness and Relief
+M03	Professional Societies, Associations	Disaster Relief	Public Safety, Disaster Preparedness and Relief
+M05	Research Institutes and/or Public Policy Analysis	Disaster Relief	Public Safety, Disaster Preparedness and Relief
+M11	Single Organization Support	Disaster Relief	Public Safety, Disaster Preparedness and Relief
+M12	Fund Raising and/or Fund Distribution	Disaster Relief	Public Safety, Disaster Preparedness and Relief
+M19	Nonmonetary Support N.E.C.	Disaster Relief	Public Safety, Disaster Preparedness and Relief
+M20	Disaster Preparedness and Relief Services	Disaster Relief	Public Safety, Disaster Preparedness and Relief
+M23	Search and Rescue Squads, Services	Disaster Relief	Public Safety, Disaster Preparedness and Relief
+M24	Fire Prevention, Protection, Control 	Disaster Relief	Public Safety, Disaster Preparedness and Relief
+M40	Safety Education	Disaster Relief	Public Safety, Disaster Preparedness and Relief
+M41	First Aid Training, Services	Disaster Relief	Public Safety, Disaster Preparedness and Relief
+M42	Automotive Safety	Disaster Relief	Public Safety, Disaster Preparedness and Relief
+M99	Public Safety, Disaster Preparedness, and Relief N.E.C.	Disaster Relief	Public Safety, Disaster Preparedness and Relief
+N01	Alliance/Advocacy Organizations	Sports	Recreation, Sports, Leisure, Athletics
+N02	Management & Technical Assistance	Sports	Recreation, Sports, Leisure, Athletics
+N03	Professional Societies, Associations	Sports	Recreation, Sports, Leisure, Athletics
+N05	Research Institutes and/or Public Policy Analysis	Sports	Recreation, Sports, Leisure, Athletics
+N11	Single Organization Support	Sports	Recreation, Sports, Leisure, Athletics
+N12	Fund Raising and/or Fund Distribution	Sports	Recreation, Sports, Leisure, Athletics
+N19	Nonmonetary Support N.E.C.	Sports	Recreation, Sports, Leisure, Athletics
+N20	Recreational and Sporting Camps	Sports	Recreation, Sports, Leisure, Athletics
+N30	Physical Fitness and Community Recreational Facilities	Sports	Recreation, Sports, Leisure, Athletics
+N31	Community Recreational Centers	Sports	Recreation, Sports, Leisure, Athletics
+N32	Parks and Playgrounds	Sports	Recreation, Sports, Leisure, Athletics
+N40	Sports Training Facilities, Agencies	Sports	Recreation, Sports, Leisure, Athletics
+N50	Recreational, Pleasure, or Social Club	Sports	Recreation, Sports, Leisure, Athletics
+N52	Fairs, County and Other	Sports	Recreation, Sports, Leisure, Athletics
+N60	Amateur Sports Clubs, Leagues, N.E.C.	Sports	Recreation, Sports, Leisure, Athletics
+N61	Fishing, Hunting Clubs	Sports	Recreation, Sports, Leisure, Athletics
+N62	Basketball	Sports	Recreation, Sports, Leisure, Athletics
+N63	Baseball, Softball	Sports	Recreation, Sports, Leisure, Athletics
+N64	Soccer Clubs, Leagues	Sports	Recreation, Sports, Leisure, Athletics
+N65	Football Clubs, Leagues	Sports	Recreation, Sports, Leisure, Athletics
+N66	Tennis, Racquet Sports Clubs, Leagues	Sports	Recreation, Sports, Leisure, Athletics
+N67	Swimming, Water Recreation	Sports	Recreation, Sports, Leisure, Athletics
+N68	Winter Sports (Snow and Ice)	Sports	Recreation, Sports, Leisure, Athletics
+N69	Equestrian, Riding	Sports	Recreation, Sports, Leisure, Athletics
+N6A	Golf	Sports	Recreation, Sports, Leisure, Athletics
+N70	Amateur Sports Competitions	Sports	Recreation, Sports, Leisure, Athletics
+N71	Olympics Committees and Related International Competitions	Sports	Recreation, Sports, Leisure, Athletics
+N72	Special Olympics	Sports	Recreation, Sports, Leisure, Athletics
+N80	Professional Athletic Leagues	Sports	Recreation, Sports, Leisure, Athletics
+N99	Recreation, Sports, Leisure, Athletics N.E.C.	Sports	Recreation, Sports, Leisure, Athletics
+O01	Alliance/Advocacy Organizations	Youth Services	Youth Development
+O02	Management & Technical Assistance	Youth Services	Youth Development
+O03	Professional Societies, Associations	Youth Services	Youth Development
+O05	Research Institutes and/or Public Policy Analysis	Youth Services	Youth Development
+O11	Single Organization Support	Youth Services	Youth Development
+O12	Fund Raising and/or Fund Distribution	Youth Services	Youth Development
+O19	Nonmonetary Support N.E.C.	Youth Services	Youth Development
+O20	Youth Centers, Clubs, Multipurpose	Youth Services	Youth Development
+O21	Boys Clubs	Youth Services	Youth Development
+O22	Girls Clubs	Youth Services	Youth Development
+O23	Boys and Girls Clubs (Combined)	Youth Services	Youth Development
+O30	Adult, Child Matching Programs	Youth Services	Youth Development
+O31	Big Brothers, Big Sisters	Youth Services	Youth Development
+O40	Scouting Organizations	Youth Services	Youth Development
+O41	Boy Scouts of America	Youth Services	Youth Development
+O42	Girl Scouts of the U.S.A.	Youth Services	Youth Development
+O43	Camp Fire	Youth Services	Youth Development
+O50	Youth Development Programs, Other 	Youth Services	Youth Development
+O51	Youth Community Service Clubs	Youth Services	Youth Development
+O52	Youth Development - Agricultural	Youth Services	Youth Development
+O53	Youth Development - Business	Youth Services	Youth Development
+O54	Youth Development - Citizenship Programs	Youth Services	Youth Development
+O55	Youth Development - Religious Leadership	Youth Services	Youth Development
+O99	Youth Development N.E.C.	Youth Services	Youth Development
+P01	Alliance/Advocacy Organizations	Human Services	Human Services – Multipurpose and Other
+P02	Management & Technical Assistance	Human Services	Human Services – Multipurpose and Other
+P03	Professional Societies, Associations	Human Services	Human Services – Multipurpose and Other
+P05	Research Institutes and/or Public Policy Analysis	Human Services	Human Services – Multipurpose and Other
+P11	Single Organization Support	Human Services	Human Services – Multipurpose and Other
+P12	Fund Raising and/or Fund Distribution	Human Services	Human Services – Multipurpose and Other
+P19	Nonmonetary Support N.E.C.	Human Services	Human Services – Multipurpose and Other
+P20	Human Service Organizations - Multipurpose	Human Services	Human Services – Multipurpose and Other
+P21	American Red Cross	Human Services	Human Services – Multipurpose and Other
+P22	Urban League	Human Services	Human Services – Multipurpose and Other
+P24	Salvation Army	Human Services	Human Services – Multipurpose and Other
+P26	Volunteers of America	Human Services	Human Services – Multipurpose and Other
+P27	Young Mens or Womens Associations (YMCA, YWCA, YWHA, YMHA)	Human Services	Human Services – Multipurpose and Other
+P28	Neighborhood Centers, Settlement Houses	Human Services	Human Services – Multipurpose and Other
+P29	Thrift Shops	Human Services	Human Services – Multipurpose and Other
+P30	Childrens, Youth Services	Human Services	Human Services – Multipurpose and Other
+P31	Adoption	Human Services	Human Services – Multipurpose and Other
+P32	Foster Care	Human Services	Human Services – Multipurpose and Other
+P33	Child Day Care	Human Services	Human Services – Multipurpose and Other
+P40	Family Services	Human Services	Human Services – Multipurpose and Other
+P42	Single Parent Agencies, Services	Human Services	Human Services – Multipurpose and Other
+P43	Family Violence Shelters, Services	Human Services	Human Services – Multipurpose and Other
+P44	Homemaker, Home Health Aide	Human Services	Human Services – Multipurpose and Other
+P45	Family Services, Adolescent Parents	Human Services	Human Services – Multipurpose and Other
+P46	Family Counseling	Human Services	Human Services – Multipurpose and Other
+P50	Personal Social Services	Human Services	Human Services – Multipurpose and Other
+P51	Financial Counseling, Money Management	Human Services	Human Services – Multipurpose and Other
+P52	Transportation, Free or Subsidized	Human Services	Human Services – Multipurpose and Other
+P58	Gift Distribution	Human Services	Human Services – Multipurpose and Other
+P60	Emergency Assistance (Food, Clothing, Cash)	Human Services	Human Services – Multipurpose and Other
+P61	Travelers Aid	Human Services	Human Services – Multipurpose and Other
+P62	Victims Services	Human Services	Human Services – Multipurpose and Other
+P70	Residential, Custodial Care	Human Services	Human Services – Multipurpose and Other
+P72	Half-Way House (Short-Term Residential Care)	Human Services	Human Services – Multipurpose and Other
+P73	Group Home (Long Term)	Human Services	Human Services – Multipurpose and Other
+P74	Hospice	Human Services	Human Services – Multipurpose and Other
+P75	Senior Continuing Care Communities	Human Services	Human Services – Multipurpose and Other
+P80	Services to Promote the Independence of Specific Populations	Human Services	Human Services – Multipurpose and Other
+P81	Senior Centers, Services	Human Services	Human Services – Multipurpose and Other
+P82	Developmentally Disabled Centers, Services	Human Services	Human Services – Multipurpose and Other
+P84	Ethnic, Immigrant Centers, Services	Human Services	Human Services – Multipurpose and Other
+P85	Homeless Persons Centers, Services	Human Services	Human Services – Multipurpose and Other
+P86	 Blind/Visually Impaired Centers, Service	Human Services	Human Services – Multipurpose and Other
+P87	Deaf/Hearing Impaired Centers, Services	Human Services	Human Services – Multipurpose and Other
+P99	Human Services - Multipurpose and Other N.E.C.	Human Services	Human Services – Multipurpose and Other
+Q01	Alliance/Advocacy Organizations 	International Services	International, Foreign Affairs and National Security
+Q02	Management & Technical Assistance	International Services	International, Foreign Affairs and National Security
+Q03	Professional Societies, Associations	International Services	International, Foreign Affairs and National Security
+Q05	Research Institutes and/or Public Policy Analysis	International Services	International, Foreign Affairs and National Security
+Q11	Single Organization Support	International Services	International, Foreign Affairs and National Security
+Q12	Fund Raising and/or Fund Distribution	International Services	International, Foreign Affairs and National Security
+Q19	Nonmonetary Support N.E.C.	International Services	International, Foreign Affairs and National Security
+Q20	Promotion of International Understanding	International Services	International, Foreign Affairs and National Security
+Q21	International Cultural Exchange	International Services	International, Foreign Affairs and National Security
+Q22	International Student Exchange and Aid	International Services	International, Foreign Affairs and National Security
+Q23	International Exchanges, N.E.C.	International Services	International, Foreign Affairs and National Security
+Q30	International Development, Relief Services	International Services	International, Foreign Affairs and National Security
+Q31	International Agricultural Development	International Services	International, Foreign Affairs and National Security
+Q32	International Economic Development	International Services	International, Foreign Affairs and National Security
+Q33	International Relief	International Services	International, Foreign Affairs and National Security
+Q40	International Peace and Security	International Services	International, Foreign Affairs and National Security
+Q41	Arms Control, Peace Organizations	International Services	International, Foreign Affairs and National Security
+Q42	United Nations Association	International Services	International, Foreign Affairs and National Security
+Q43	National Security, Domestic	International Services	International, Foreign Affairs and National Security
+Q7	International Human Rights	International Services	International, Foreign Affairs and National Security
+Q71	International Migration, Refugee Issues	International Services	International, Foreign Affairs and National Security
+Q99	International, Foreign Affairs, and National Security N.E.C.	International Services	International, Foreign Affairs and National Security
+R01	Alliance/Advocacy Organizations	Human Rights	Civil Rights, Social Action, Advocacy
+R02	Management & Technical Assistance	Human Rights	Civil Rights, Social Action, Advocacy
+R03	Professional Societies, Associations	Human Rights	Civil Rights, Social Action, Advocacy
+R05	Research Institutes and/or Public Policy Analysis	Human Rights	Civil Rights, Social Action, Advocacy
+R11	Single Organization Support	Human Rights	Civil Rights, Social Action, Advocacy
+R12	Fund Raising and/or Fund Distribution	Human Rights	Civil Rights, Social Action, Advocacy
+R19	Nonmonetary Support N.E.C.	Human Rights	Civil Rights, Social Action, Advocacy
+R20	Civil Rights, Advocacy for Specific Groups	Human Rights	Civil Rights, Social Action, Advocacy
+R22	Minority Rights	Human Rights	Civil Rights, Social Action, Advocacy
+R23	Disabled Persons Rights	Human Rights	Civil Rights, Social Action, Advocacy
+R24	Womens Rights	Human Rights	Civil Rights, Social Action, Advocacy
+R25	Seniors Rights	Human Rights	Civil Rights, Social Action, Advocacy
+R26	Lesbian, Gay Rights	Human Rights	Civil Rights, Social Action, Advocacy
+R30	Intergroup, Race Relations	Human Rights	Civil Rights, Social Action, Advocacy
+R40	Voter Education, Registration	Human Rights	Civil Rights, Social Action, Advocacy
+R60	Civil Liberties Advocacy	Human Rights	Civil Rights, Social Action, Advocacy
+R61	Reproductive Rights	Human Rights	Civil Rights, Social Action, Advocacy
+R62	Right to Life	Human Rights	Civil Rights, Social Action, Advocacy
+R63	Censorship, Freedom of Speech and Press Issues	Human Rights	Civil Rights, Social Action, Advocacy
+R67	Right to Die, Euthanasia Issues	Human Rights	Civil Rights, Social Action, Advocacy
+R99	Civil Rights, Social Action, Advocacy N.E.C.	Human Rights	Civil Rights, Social Action, Advocacy
+S01	Alliance/Advocacy Organizations	Community Improvement	Community Improvement, Capacity Building
+S01	Management & Technical Assistance	Community Improvement	Community Improvement, Capacity Building
+S03	Professional Societies, Associations	Community Improvement	Community Improvement, Capacity Building
+S05	Research Institutes and/or Public Policy Analysis	Community Improvement	Community Improvement, Capacity Building
+S11	Single Organization Support	Community Improvement	Community Improvement, Capacity Building
+S12	Fund Raising and/or Fund Distribution	Community Improvement	Community Improvement, Capacity Building
+S19	Nonmonetary Support N.E.C.	Community Improvement	Community Improvement, Capacity Building
+S20	Community, Neighborhood Development, Improvement (General)	Community Improvement	Community Improvement, Capacity Building
+S21	Community Coalitions	Community Improvement	Community Improvement, Capacity Building
+S22	Neighborhood, Block Associations 	Community Improvement	Community Improvement, Capacity Building
+S30	Economic Development	Community Improvement	Community Improvement, Capacity Building
+S31	Urban, Community Economic Development	Community Improvement	Community Improvement, Capacity Building
+S32	Rural Development	Community Improvement	Community Improvement, Capacity Building
+S40	Business and Industry	Community Improvement	Community Improvement, Capacity Building
+S41	Promotion of Business	Community Improvement	Community Improvement, Capacity Building
+S43	Management Services for Small Business, Entrepreneurs	Community Improvement	Community Improvement, Capacity Building
+S46	Boards of Trade	Community Improvement	Community Improvement, Capacity Building
+S47	Real Estate Organizations	Community Improvement	Community Improvement, Capacity Building
+S50	Nonprofit Management	Community Improvement	Community Improvement, Capacity Building
+S80	Community Service Clubs	Community Improvement	Community Improvement, Capacity Building
+S81	Womens Service Clubs	Community Improvement	Community Improvement, Capacity Building
+S82	Mens Service Clubs	Community Improvement	Community Improvement, Capacity Building
+S99	Community Improvement, Capacity Building N.E.C.	Community Improvement	Community Improvement, Capacity Building
+T01	Alliance/Advocacy Organizations	Philanthropy	Philanthropy, Voluntarism and Grantmaking Foundations
+T02	Management & Technical Assistance	Philanthropy	Philanthropy, Voluntarism and Grantmaking Foundations
+T03	Professional Societies, Associations	Philanthropy	Philanthropy, Voluntarism and Grantmaking Foundations
+T05	Research Institutes and/or Public Policy Analysis	Philanthropy	Philanthropy, Voluntarism and Grantmaking Foundations
+T11	Single Organization Support	Philanthropy	Philanthropy, Voluntarism and Grantmaking Foundations
+T12	Fund Raising and/or Fund Distribution	Philanthropy	Philanthropy, Voluntarism and Grantmaking Foundations
+T19	Nonmonetary Support N.E.C.	Philanthropy	Philanthropy, Voluntarism and Grantmaking Foundations
+T20	Private Grantmaking Foundations	Philanthropy	Philanthropy, Voluntarism and Grantmaking Foundations
+T21	Corporate Foundations	Philanthropy	Philanthropy, Voluntarism and Grantmaking Foundations
+T22	Private Independent Foundations	Philanthropy	Philanthropy, Voluntarism and Grantmaking Foundations
+T23	Private Operating Foundations	Philanthropy	Philanthropy, Voluntarism and Grantmaking Foundations
+T30	Public Foundations	Philanthropy	Philanthropy, Voluntarism and Grantmaking Foundations
+T31	Community Foundations	Philanthropy	Philanthropy, Voluntarism and Grantmaking Foundations
+T40	Voluntarism Promotion	Philanthropy	Philanthropy, Voluntarism and Grantmaking Foundations
+T50	Philanthropy, Charity, Voluntarism Promotion, General	Philanthropy	Philanthropy, Voluntarism and Grantmaking Foundations
+T70	Fund Raising Organizations That Cross Categories	Philanthropy	Philanthropy, Voluntarism and Grantmaking Foundations
+T90	Named Trusts/Foundations N.E.C.	Philanthropy	Philanthropy, Voluntarism and Grantmaking Foundations
+T99	Philanthropy, Voluntarism, and Grantmaking Foundations N.E.C.	Philanthropy	Philanthropy, Voluntarism and Grantmaking Foundations
+U01	Alliance/Advocacy Organizations	Science & Tech	Science and Technology Research Institutes, Services
+U02	Management & Technical Assistance	Science & Tech	Science and Technology Research Institutes, Services
+U03	Professional Societies, Associations	Science & Tech	Science and Technology Research Institutes, Services
+U05	Research Institutes and/or Public Policy Analysis	Science & Tech	Science and Technology Research Institutes, Services
+U11	Single Organization Support	Science & Tech	Science and Technology Research Institutes, Services
+U12	Fund Raising and/or Fund Distribution	Science & Tech	Science and Technology Research Institutes, Services
+U19	Nonmonetary Support N.E.C.	Science & Tech	Science and Technology Research Institutes, Services
+U20	Science, General	Science & Tech	Science and Technology Research Institutes, Services
+U21	Marine Science and Oceanography	Science & Tech	Science and Technology Research Institutes, Services
+U30	Physical Sciences, Earth Sciences Research and Promotion	Science & Tech	Science and Technology Research Institutes, Services
+U31	Astronomy	Science & Tech	Science and Technology Research Institutes, Services
+U33	Chemistry, Chemical Engineering	Science & Tech	Science and Technology Research Institutes, Services
+U34	Mathematics	Science & Tech	Science and Technology Research Institutes, Services
+U36	Geology	Science & Tech	Science and Technology Research Institutes, Services
+U40	Engineering and Technology Research, Services	Science & Tech	Science and Technology Research Institutes, Services
+U41	Computer Science	Science & Tech	Science and Technology Research Institutes, Services
+U42	Engineering	Science & Tech	Science and Technology Research Institutes, Services
+U50	Biological, Life Science Research	Science & Tech	Science and Technology Research Institutes, Services
+U99	Science and Technology Research Institutes, Services N.E.C.	Science & Tech	Science and Technology Research Institutes, Services
+V01	Alliance/Advocacy Organizations	Social Science	Social Science Research Institutes, Services
+V02	Management & Technical Assistance	Social Science	Social Science Research Institutes, Services
+V03	Professional Societies, Associations	Social Science	Social Science Research Institutes, Services
+V05	Research Institutes and/or Public Policy Analysis	Social Science	Social Science Research Institutes, Services
+V11	Single Organization Support	Social Science	Social Science Research Institutes, Services
+V12	Fund Raising and/or Fund Distribution	Social Science	Social Science Research Institutes, Services
+V19	Nonmonetary Support N.E.C.	Social Science	Social Science Research Institutes, Services
+V20	Social Science Institutes, Services	Social Science	Social Science Research Institutes, Services
+V21	Anthropology, Sociology	Social Science	Social Science Research Institutes, Services
+V22	Economics (as a social science)	Social Science	Social Science Research Institutes, Services
+V23	Behavioral Science	Social Science	Social Science Research Institutes, Services
+V24	Political Science	Social Science	Social Science Research Institutes, Services
+V25	Population Studies	Social Science	Social Science Research Institutes, Services
+V26	Law, International Law, Jurisprudence	Social Science	Social Science Research Institutes, Services
+V30	Interdisciplinary Research	Social Science	Social Science Research Institutes, Services
+V31	Black Studies	Social Science	Social Science Research Institutes, Services
+V32	Womens Studies	Social Science	Social Science Research Institutes, Services
+V33	Ethnic Studies	Social Science	Social Science Research Institutes, Services
+V34	Urban Studies	Social Science	Social Science Research Institutes, Services
+V35	International Studies	Social Science	Social Science Research Institutes, Services
+V36	Gerontology (as a social science)	Social Science	Social Science Research Institutes, Services
+V37	Labor Studies	Social Science	Social Science Research Institutes, Services
+V99	Social Science Research Institutes, Services N.E.C.	Social Science	Social Science Research Institutes, Services
+W01	Alliance/Advocacy Organizations	Science	Public, Society Benefit – Multipurpose and Other
+W02	Management & Technical Assistance	Science	Public, Society Benefit – Multipurpose and Other
+W03	Professional Societies, Associations	Science	Public, Society Benefit – Multipurpose and Other
+W05	Research Institutes and/or Public Policy Analysis	Science	Public, Society Benefit – Multipurpose and Other
+W11	Single Organization Support	Science	Public, Society Benefit – Multipurpose and Other
+W12	Fund Raising and/or Fund Distribution	Science	Public, Society Benefit – Multipurpose and Other
+W19	Nonmonetary Support N.E.C.	Science	Public, Society Benefit – Multipurpose and Other
+W20	Government and Public Administration	Science	Public, Society Benefit – Multipurpose and Other
+W22	Public Finance, Taxation, Monetary Policy	Science	Public, Society Benefit – Multipurpose and Other
+W24	Citizen Participation	Science	Public, Society Benefit – Multipurpose and Other
+W30	Military, Veterans Organizations	Science	Public, Society Benefit – Multipurpose and Other
+W30	Public Transportation Systems, Services	Science	Public, Society Benefit – Multipurpose and Other
+W50	Telephone, Telegraph and Telecommunication Services	Science	Public, Society Benefit – Multipurpose and Other
+W60	Financial Institutions, Services (Non-Government Related)	Science	Public, Society Benefit – Multipurpose and Other
+W61	Credit Unions	Science	Public, Society Benefit – Multipurpose and Other
+W70	Leadership Development	Science	Public, Society Benefit – Multipurpose and Other
+W80	Public Utilities	Science	Public, Society Benefit – Multipurpose and Other
+W90	Consumer Protection, Safety	Science	Public, Society Benefit – Multipurpose and Other
+W99	Public, Society Benefit - Multipurpose and Other N.E.C.	Science	Public, Society Benefit – Multipurpose and Other
+X01	Alliance/Advocacy Organizations	Religion	Religion-Related, Spiritual Development
+X02	Management & Technical Assistance	Religion	Religion-Related, Spiritual Development
+X03	Professional Societies, Associations	Religion	Religion-Related, Spiritual Development
+X05	Research Institutes and/or Public Policy Analysis	Religion	Religion-Related, Spiritual Development
+X11	Single Organization Support	Religion	Religion-Related, Spiritual Development
+X12	Fund Raising and/or Fund Distribution	Religion	Religion-Related, Spiritual Development
+X19	Nonmonetary Support N.E.C.	Religion	Religion-Related, Spiritual Development
+X20	Christian	Religion	Religion-Related, Spiritual Development
+X21	Protestant	Religion	Religion-Related, Spiritual Development
+X22	Roman Catholic 	Religion	Religion-Related, Spiritual Development
+X30	Jewish	Religion	Religion-Related, Spiritual Development
+X40	Islamic	Religion	Religion-Related, Spiritual Development
+X50	Buddhist	Religion	Religion-Related, Spiritual Development
+X70	Hindu	Religion	Religion-Related, Spiritual Development
+X80	Religious Media, Communications Organizations	Religion	Religion-Related, Spiritual Development
+X81	Religious Film, Video	Religion	Religion-Related, Spiritual Development
+X82	Religious Television	Religion	Religion-Related, Spiritual Development
+X83	Religious Printing, Publishing	Religion	Religion-Related, Spiritual Development
+X84	Religious Radio	Religion	Religion-Related, Spiritual Development
+X90	Interfaith Issues	Religion	Religion-Related, Spiritual Development
+X99	Religion Related, Spiritual Development N.E.C.	Religion	Religion-Related, Spiritual Development
+Y01	Alliance/Advocacy Organizations	Organizations	Mutual/Membership Benefit Organizations, Other
+Y02	Management & Technical Assistance	Organizations	Mutual/Membership Benefit Organizations, Other
+Y03	Professional Societies, Associations	Organizations	Mutual/Membership Benefit Organizations, Other
+Y05	Research Institutes and/or Public Policy Analysis	Organizations	Mutual/Membership Benefit Organizations, Other
+Y11	Single Organization Support	Organizations	Mutual/Membership Benefit Organizations, Other
+Y12	Fund Raising and/or Fund Distribution	Organizations	Mutual/Membership Benefit Organizations, Other
+Y19	Nonmonetary Support N.E.C.	Organizations	Mutual/Membership Benefit Organizations, Other
+Y20	Insurance Providers, Services	Organizations	Mutual/Membership Benefit Organizations, Other
+Y22	Local Benevolent Life Insurance Associations, Mutual Irrigation and Telephone Companies, and Like Organizations	Organizations	Mutual/Membership Benefit Organizations, Other
+Y23	Mutual Insurance Company or Association	Organizations	Mutual/Membership Benefit Organizations, Other
+Y24	Supplemental Unemployment Compensation	Organizations	Mutual/Membership Benefit Organizations, Other
+Y25	State-Sponsored Workers Compensation Reinsurance Organizations	Organizations	Mutual/Membership Benefit Organizations, Other
+Y30	Pension and Retirement Funds	Organizations	Mutual/Membership Benefit Organizations, Other
+Y33	Teachers Retirement Fund Association	Organizations	Mutual/Membership Benefit Organizations, Other
+Y34	Employee Funded Pension Trust	Organizations	Mutual/Membership Benefit Organizations, Other
+Y35	Multi-Employer Pension Plans	Organizations	Mutual/Membership Benefit Organizations, Other
+Y40	Fraternal Beneficiary Societies	Organizations	Mutual/Membership Benefit Organizations, Other
+Y42	Domestic Fraternal Societies	Organizations	Mutual/Membership Benefit Organizations, Other
+Y43	Voluntary Employees Beneficiary Associations (Non-Government)	Organizations	Mutual/Membership Benefit Organizations, Other
+Y44	Voluntary Employees Beneficiary Associations (Government)	Organizations	Mutual/Membership Benefit Organizations, Other
+Y50	Cemeteries, Burial Services	Organizations	Mutual/Membership Benefit Organizations, Other
+Y99	Mutual/Membership Benefit Organizations, Other N.E.C.	Organizations	Mutual/Membership Benefit Organizations, Other
+Z99	Unknown 	Unknown	Unknown
