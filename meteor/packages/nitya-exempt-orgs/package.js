@@ -15,7 +15,7 @@ Package.onUse(function(api) {
     'underscore',
     'aldeed:simple-schema@1.3.3',
     'aldeed:collection2@2.3.3',
-    'dburles:collection-helpers@1.0.3',
+    'dburles:collection-helpers',
   ];
   api.use(packages);
   api.imply(packages);

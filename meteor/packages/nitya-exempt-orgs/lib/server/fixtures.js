@@ -97,7 +97,7 @@ var parseRecord = function (record, region){
         assetAmt    : parseInt("0"||data[23]),
         incomeAmt   : parseInt("0"||data[24]),
         revenueAmt  : parseInt("0"||data[25]),
-        nteeCode    : data[26] || "Z99",
+        nteeCode    : data[26].substring(0,3) || "Z99",  //TODO: verify. Some codes have extra chars
         sortName    : data[27],
       };
   org.description = getDescription(org.classification,org.subsection);
@@ -221,7 +221,7 @@ Methods.loadOrgFixtures = function(){
   });
 
   /*
-  
+
    * LEAVING OUT REGION 4
    *  These are addresses outside USA and will not validate
    *  given our address schema constraint
@@ -235,6 +235,8 @@ Methods.loadOrgFixtures = function(){
   return errCount;
 };
 
+var causeCount=0, orgCount=0;
+
 var loadOrgAsset = function(asset, region){
   Assets.getText(asset, function(err, res){
     if (err){
@@ -242,9 +244,9 @@ var loadOrgAsset = function(asset, region){
       return;
     }
 
-    console.log("Success: Loading data for Region "+region+"  from "+asset);
+    //console.log("Success: Loading data for Region "+region+"  from "+asset);
     var data = res.split('\r\n'),
-        org = null;
+        org = null, cause=null, guess=null;
 
     // skip first row as header
     _.each(data, function(record, index){
@@ -267,7 +269,18 @@ var loadOrgAsset = function(asset, region){
       }
 
       org.fixture = true;
-      Orgs.insert(org);
+      org._id = "org"+org.ein;
+      org._id = Orgs.insert(org);
+      orgCount++;
+
+      try { cause = Orgs._transform(org).cause().name; }
+      catch(err){
+        guess=org.nteeCode.substring(0,2)+"0";
+        cause = Causes.findOne({symbol: guess}).name;
+      }
+
+      console.log("Success: Inserted ORG #"+orgCount+" with ID "+org._id+
+        ", CAUSE "+cause);
     });
   });
 };
@@ -279,7 +292,7 @@ Methods.loadCauseFixtures = function(asset){
       return;
     }
 
-    console.log("Success: Loading causes data from "+asset);
+    //console.log("Success: Loading causes data from "+asset);
     var data = res.split('\r\n');
 
     var cause=null,item=null;
@@ -296,8 +309,14 @@ Methods.loadCauseFixtures = function(asset){
       check(cause, Schemas.Cause);
       cause._id = "ntee_"+item[0];
       cause.createdAt = new Date();
-      Causes.insert(cause);
+      cause._id = Causes.insert(cause);
+      causeCount++;
+      console.log("Success: Inserted CAUSE #"+causeCount+" with ID "+cause._id);
     })
+
+    console.log("Adding Orgs fixtures");
+    var errs = Methods.loadOrgFixtures();
+    console.log("Err Count="+errs);
   });
 };
 
@@ -316,10 +335,6 @@ Meteor.startup(function(){
 
   console.log("Adding Causes fixtures");
   Methods.loadCauseFixtures('assets/causes.tsv');
-
-  console.log("Adding Orgs fixtures");
-  var errs = Methods.loadOrgFixtures();
-  console.log("Err Count="+errs);
 
 
 });

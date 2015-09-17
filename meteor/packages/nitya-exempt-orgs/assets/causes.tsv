@@ -155,40 +155,40 @@ F60	Counseling, Support Groups	Crisis Intervention	Mental Health, Crisis Interve
 F70	Mental Health Disorders	Crisis Intervention	Mental Health, Crisis Intervention
 F80	Mental Health Association, Multipurpose	Crisis Intervention	Mental Health, Crisis Intervention
 F99	Mental Health, Crisis Intervention N.E.C.	Crisis Intervention	Mental Health, Crisis Intervention
-G01	Alliance/Advocacy Organizations	Medical Disciplines	Diseases, Disorders, Medical Disciplines
-G02	Management & Technical Assistance	Medical Disciplines	Diseases, Disorders, Medical Disciplines
-G03	Professional Societies, Associations	Medical Disciplines	Diseases, Disorders, Medical Disciplines
-G05	Research Institutes and/or Public Policy Analysis	Medical Disciplines	Diseases, Disorders, Medical Disciplines
-G11	Single Organization Support	Medical Disciplines	Diseases, Disorders, Medical Disciplines
-G12	Fund Raising and/or Fund Distribution	Medical Disciplines	Diseases, Disorders, Medical Disciplines
-G19	Nonmonetary Support N.E.C.	Medical Disciplines	Diseases, Disorders, Medical Disciplines
-G20	Birth Defects and Genetic Diseases	Medical Disciplines	Diseases, Disorders, Medical Disciplines
-G25	Down Syndrome	Medical Disciplines	Diseases, Disorders, Medical Disciplines
-G30	Cancer	Medical Disciplines	Diseases, Disorders, Medical Disciplines
-G40	Diseases of Specific Organs	Medical Disciplines	Diseases, Disorders, Medical Disciplines
-G41	Eye Diseases, Blindness and Vision Impairments	Medical Disciplines	Diseases, Disorders, Medical Disciplines
-G42	Ear and Throat Diseases	Medical Disciplines	Diseases, Disorders, Medical Disciplines
-G43	Heart and Circulatory System Diseases, Disorders	Medical Disciplines	Diseases, Disorders, Medical Disciplines
-G44	Kidney Disease	Medical Disciplines	Diseases, Disorders, Medical Disciplines
-G45	Lung Disease	Medical Disciplines	Diseases, Disorders, Medical Disciplines
-G48	Brain Disorders	Medical Disciplines	Diseases, Disorders, Medical Disciplines
-G50	Nerve, Muscle and Bone Diseases	Medical Disciplines	Diseases, Disorders, Medical Disciplines
-G51	Arthritis	Medical Disciplines	Diseases, Disorders, Medical Disciplines
-G54	Epilepsy	Medical Disciplines	Diseases, Disorders, Medical Disciplines
-G60	Allergy Related Diseases	Medical Disciplines	Diseases, Disorders, Medical Disciplines
-G61	Asthma	Medical Disciplines	Diseases, Disorders, Medical Disciplines
-G70	Digestive Diseases, Disorders	Medical Disciplines	Diseases, Disorders, Medical Disciplines
-G80	Specifically Named Diseases	Medical Disciplines	Diseases, Disorders, Medical Disciplines
-G81	AIDS	Medical Disciplines	Diseases, Disorders, Medical Disciplines
-G83	Alzheimers Disease	Medical Disciplines	Diseases, Disorders, Medical Disciplines
-G84	Autism	Medical Disciplines	Diseases, Disorders, Medical Disciplines
-G90	Medical Disciplines	Medical Disciplines	Diseases, Disorders, Medical Disciplines
-G92	Biomedicine, Bioengineering	Medical Disciplines	Diseases, Disorders, Medical Disciplines
-G94	Geriatrics	Medical Disciplines	Diseases, Disorders, Medical Disciplines
-G96	Neurology, Neuroscience	Medical Disciplines	Diseases, Disorders, Medical Disciplines
-G98	Pediatrics	Medical Disciplines	Diseases, Disorders, Medical Disciplines
-G9B	Surgery	Medical Disciplines	Diseases, Disorders, Medical Disciplines
-G99	Diseases, Disorders, Medical Disciplines N.E.C.	Medical Disciplines	Diseases, Disorders, Medical Disciplines
+G01	Alliance/Advocacy Organizations	Health	Diseases, Disorders, Health
+G02	Management & Technical Assistance	Health	Diseases, Disorders, Health
+G03	Professional Societies, Associations	Health	Diseases, Disorders, Health
+G05	Research Institutes and/or Public Policy Analysis	Health	Diseases, Disorders, Health
+G11	Single Organization Support	Health	Diseases, Disorders, Health
+G12	Fund Raising and/or Fund Distribution	Health	Diseases, Disorders, Health
+G19	Nonmonetary Support N.E.C.	Health	Diseases, Disorders, Health
+G20	Birth Defects and Genetic Diseases	Health	Diseases, Disorders, Health
+G25	Down Syndrome	Health	Diseases, Disorders, Health
+G30	Cancer	Health	Diseases, Disorders, Health
+G40	Diseases of Specific Organs	Health	Diseases, Disorders, Health
+G41	Eye Diseases, Blindness and Vision Impairments	Health	Diseases, Disorders, Health
+G42	Ear and Throat Diseases	Health	Diseases, Disorders, Health
+G43	Heart and Circulatory System Diseases, Disorders	Health	Diseases, Disorders, Health
+G44	Kidney Disease	Health	Diseases, Disorders, Health
+G45	Lung Disease	Health	Diseases, Disorders, Health
+G48	Brain Disorders	Health	Diseases, Disorders, Health
+G50	Nerve, Muscle and Bone Diseases	Health	Diseases, Disorders, Health
+G51	Arthritis	Health	Diseases, Disorders, Health
+G54	Epilepsy	Health	Diseases, Disorders, Health
+G60	Allergy Related Diseases	Health	Diseases, Disorders, Health
+G61	Asthma	Health	Diseases, Disorders, Health
+G70	Digestive Diseases, Disorders	Health	Diseases, Disorders, Health
+G80	Specifically Named Diseases	Health	Diseases, Disorders, Health
+G81	AIDS	Health	Diseases, Disorders, Health
+G83	Alzheimers Disease	Health	Diseases, Disorders, Health
+G84	Autism	Health	Diseases, Disorders, Health
+G90	Health	Health	Diseases, Disorders, Health
+G92	Biomedicine, Bioengineering	Health	Diseases, Disorders, Health
+G94	Geriatrics	Health	Diseases, Disorders, Health
+G96	Neurology, Neuroscience	Health	Diseases, Disorders, Health
+G98	Pediatrics	Health	Diseases, Disorders, Health
+G9B	Surgery	Health	Diseases, Disorders, Health
+G99	Diseases, Disorders, Health N.E.C.	Health	Diseases, Disorders, Health
 H01	Alliance/Advocacy Organizations	Medical Research	Medical Research
 H02	Management & Technical Assistance	Medical Research	Medical Research
 H03	Professional Societies, Associations	Medical Research	Medical Research
@@ -498,25 +498,25 @@ T50	Philanthropy, Charity, Voluntarism Promotion, General	Philanthropy	Philanthr
 T70	Fund Raising Organizations That Cross Categories	Philanthropy	Philanthropy, Voluntarism and Grantmaking Foundations
 T90	Named Trusts/Foundations N.E.C.	Philanthropy	Philanthropy, Voluntarism and Grantmaking Foundations
 T99	Philanthropy, Voluntarism, and Grantmaking Foundations N.E.C.	Philanthropy	Philanthropy, Voluntarism and Grantmaking Foundations
-U01	Alliance/Advocacy Organizations	Science & Tech	Science and Technology Research Institutes, Services
-U02	Management & Technical Assistance	Science & Tech	Science and Technology Research Institutes, Services
-U03	Professional Societies, Associations	Science & Tech	Science and Technology Research Institutes, Services
-U05	Research Institutes and/or Public Policy Analysis	Science & Tech	Science and Technology Research Institutes, Services
-U11	Single Organization Support	Science & Tech	Science and Technology Research Institutes, Services
-U12	Fund Raising and/or Fund Distribution	Science & Tech	Science and Technology Research Institutes, Services
-U19	Nonmonetary Support N.E.C.	Science & Tech	Science and Technology Research Institutes, Services
-U20	Science, General	Science & Tech	Science and Technology Research Institutes, Services
-U21	Marine Science and Oceanography	Science & Tech	Science and Technology Research Institutes, Services
-U30	Physical Sciences, Earth Sciences Research and Promotion	Science & Tech	Science and Technology Research Institutes, Services
-U31	Astronomy	Science & Tech	Science and Technology Research Institutes, Services
-U33	Chemistry, Chemical Engineering	Science & Tech	Science and Technology Research Institutes, Services
-U34	Mathematics	Science & Tech	Science and Technology Research Institutes, Services
-U36	Geology	Science & Tech	Science and Technology Research Institutes, Services
-U40	Engineering and Technology Research, Services	Science & Tech	Science and Technology Research Institutes, Services
-U41	Computer Science	Science & Tech	Science and Technology Research Institutes, Services
-U42	Engineering	Science & Tech	Science and Technology Research Institutes, Services
-U50	Biological, Life Science Research	Science & Tech	Science and Technology Research Institutes, Services
-U99	Science and Technology Research Institutes, Services N.E.C.	Science & Tech	Science and Technology Research Institutes, Services
+U01	Alliance/Advocacy Organizations	Science	Science and Technology Research Institutes, Services
+U02	Management & Technical Assistance	Science	Science and Technology Research Institutes, Services
+U03	Professional Societies, Associations	Science	Science and Technology Research Institutes, Services
+U05	Research Institutes and/or Public Policy Analysis	Science	Science and Technology Research Institutes, Services
+U11	Single Organization Support	Science	Science and Technology Research Institutes, Services
+U12	Fund Raising and/or Fund Distribution	Science	Science and Technology Research Institutes, Services
+U19	Nonmonetary Support N.E.C.	Science	Science and Technology Research Institutes, Services
+U20	Science, General	Science	Science and Technology Research Institutes, Services
+U21	Marine Science and Oceanography	Science	Science and Technology Research Institutes, Services
+U30	Physical Sciences, Earth Sciences Research and Promotion	Science	Science and Technology Research Institutes, Services
+U31	Astronomy	Science	Science and Technology Research Institutes, Services
+U33	Chemistry, Chemical Engineering	Science	Science and Technology Research Institutes, Services
+U34	Mathematics	Science	Science and Technology Research Institutes, Services
+U36	Geology	Science	Science and Technology Research Institutes, Services
+U40	Engineering and Technology Research, Services	Science	Science and Technology Research Institutes, Services
+U41	Computer Science	Science	Science and Technology Research Institutes, Services
+U42	Engineering	Science	Science and Technology Research Institutes, Services
+U50	Biological, Life Science Research	Science	Science and Technology Research Institutes, Services
+U99	Science and Technology Research Institutes, Services N.E.C.	Science	Science and Technology Research Institutes, Services
 V01	Alliance/Advocacy Organizations	Social Science	Social Science Research Institutes, Services
 V02	Management & Technical Assistance	Social Science	Social Science Research Institutes, Services
 V03	Professional Societies, Associations	Social Science	Social Science Research Institutes, Services
