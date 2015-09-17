@@ -207,10 +207,21 @@ Methods.loadOrgFixtures = function(){
   region4 = [
     'assets/eo/4/eo4_aa.csv',
   ];
+  
+  var test = [
+    'assets/eo/1/eo1_aa.csv'
+  ];
+
+  _.each(test, function(file){ 
+    loadOrgAsset(file,1);
+  });
+
+  /*
 
   _.each(region1, function(file){ 
     loadOrgAsset(file,1);
   });
+
 
   _.each(region2, function(file){
     loadOrgAsset(file,2);
@@ -219,6 +230,7 @@ Methods.loadOrgFixtures = function(){
   _.each(region3, function(file){
     loadOrgAsset(file,3);
   });
+  
 
   /*
 
@@ -270,13 +282,20 @@ var loadOrgAsset = function(asset, region){
 
       org.fixture = true;
       org._id = "org"+org.ein;
-      org._id = Orgs.insert(org);
-      orgCount++;
+      try { 
+        org._id = Orgs.insert(org); 
+        orgCount++;
+      }
+      catch(err){
+        console.log("Insert Error: ",err);
+        return;
+      }
 
       try { cause = Orgs._transform(org).cause().name; }
       catch(err){
-        guess=org.nteeCode.substring(0,2)+"0";
-        cause = Causes.findOne({symbol: guess}).name;
+        //guess=org.nteeCode.substring(0,2)+"0";
+        //cause = Causes.findOne({symbol: guess}).name;
+        cause = "Unknown";
       }
 
       console.log("Success: Inserted ORG #"+orgCount+" with ID "+org._id+
@@ -319,7 +338,6 @@ Methods.loadCauseFixtures = function(asset){
     console.log("Err Count="+errs);
   });
 };
-
 
 /*
 ========================================================================

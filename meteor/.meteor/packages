@@ -5,6 +5,10 @@
 # but you can also edit it by hand.
 
 meteor-platform
-autopublish
 insecure
 nitya:exempt-orgs
+autopublish
+yogiben:admin
+accounts-base
+accounts-password
+accounts-ui

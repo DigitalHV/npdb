@@ -1,0 +1,6 @@
+AdminConfig = {
+  collections: {
+    Causes: {},
+    Orgs: {}
+  }
+};
