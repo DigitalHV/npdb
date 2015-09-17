@@ -1,6 +1,7 @@
 Package.describe({
   name: 'nitya:exempt-orgs',
   version: '0.1.0',
+  documentation: null,
   summary: 'Exempt Orgs Data Models (IRS)',
   git: 'https://github.com/DigitalHV/npdb.git'
 });
@@ -15,7 +16,7 @@ Package.onUse(function(api) {
     'underscore',
     'aldeed:simple-schema@1.3.3',
     'aldeed:collection2@2.3.3',
-    'dburles:collection-helpers',
+    'dburles:collection-helpers@1.0.3',
   ];
   api.use(packages);
   api.imply(packages);
@@ -147,6 +148,6 @@ Package.onTest(function(api) {
   api.use('sanjo:jasmine@0.18.0');
   api.use('nitya:exempt-orgs');
   api.addFiles([
-    'tests/models-org-spec.js'
+    'tests/models-orgs-spec.js'
   ],['client','server']);
 });
