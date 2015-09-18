@@ -59,7 +59,32 @@ AllowedValues.Cause.Name = [
 
 
 Schemas.Cause= new SimpleSchema({
-	
+
+  _id     : {
+    type  : String, 
+    optional: true
+  },
+
+  createdAt : {
+    type  : Date, 
+    optional: true, 
+    denyUpdate: true,
+    autoValue: function(){ (this.isInsert) ? new Date() : this.unset() }
+  },
+
+  media : {
+    type : Object,
+    optional: true
+  },
+  "media.ref" : {
+    type : String,
+    optional : false
+  },
+  "media.isLink" : {
+    type : Boolean,
+    optional: false
+  },
+  
   symbol: {
     type: String,
     optional:false

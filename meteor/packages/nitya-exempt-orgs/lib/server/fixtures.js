@@ -64,43 +64,46 @@ var parseRecord = function (record, region){
       org = {
         ein       : data[0],
         name      : data[1],
-        ico       : data[2],
-        address   : {
-          street  : data[3],
-          city    : data[4],
-          state   : data[5],
-          zip     : data[6]
-        },
-        group       : parseInt(data[7]),
-        subsection  : data[8],
-        affiliation : data[9],
-        classification: getClassification(data[10]),
-        ruling      : {
-          year: data[11].substring(0,4),
-          month: data[11].substring(4,6),
-        },
-        deductibility: data[12],
-        foundation  : data[13],
-        activity    : [
-          data[14].substring(0,3),
-          data[14].substring(3,6),
-          data[14].substring(6,9)
-        ],
-        organization: data[15],
-        status      : data[16],
-        taxPeriod   : data[17],
-        assetCode   : data[18],
-        incomeCode  : data[19],
-        filingReqCode   : data[20],
-        pfFilingReqCode : data[21],
-        acctPD      : data[22],
-        assetAmt    : parseInt("0"||data[23]),
-        incomeAmt   : parseInt("0"||data[24]),
-        revenueAmt  : parseInt("0"||data[25]),
-        nteeCode    : data[26].substring(0,3) || "Z99",  //TODO: verify. Some codes have extra chars
-        sortName    : data[27],
+        profile   : {
+          ico       : data[2],
+          address   : {
+            street  : data[3],
+            city    : data[4],
+            state   : data[5],
+            zip     : data[6]
+          },
+          group       : parseInt(data[7]),
+          subsection  : data[8],
+          affiliation : data[9],
+          classification: getClassification(data[10]),
+          ruling      : {
+            year: data[11].substring(0,4),
+            month: data[11].substring(4,6),
+          },
+          deductibility: data[12],
+          foundation  : data[13],
+          activity    : [
+            data[14].substring(0,3),
+            data[14].substring(3,6),
+            data[14].substring(6,9)
+          ],
+          organization: data[15],
+          status      : data[16],
+          taxPeriod   : data[17],
+          assetCode   : data[18],
+          incomeCode  : data[19],
+          filingReqCode   : data[20],
+          pfFilingReqCode : data[21],
+          acctPD      : data[22],
+          assetAmt    : parseInt("0"||data[23]),
+          incomeAmt   : parseInt("0"||data[24]),
+          revenueAmt  : parseInt("0"||data[25]),
+          nteeCode    : data[26].substring(0,3) || "Z99",  //TODO: verify. Some codes have extra chars
+          sortName    : data[27]
+        }
       };
-  org.description = getDescription(org.classification,org.subsection);
+  org.profile.description = 
+    getDescription(org.profile.classification,org.profile.subsection);
   org.region = AllowedValues.Org.Region[(region||5)-1];
   return org;
 };
@@ -267,7 +270,8 @@ var loadOrgAsset = function(asset, region){
         org = parseRecord(record,region);  
       } 
       catch(err){
-        console.log("[Parse Error] Region="+region+",  EIN="+ org.ein +", desc=" + org.description);
+        console.log(err);
+        //console.log("[Parse Error] Region="+region+",  EIN="+ org.ein +", desc=" + org.description);
         return;
       }
 
@@ -305,6 +309,7 @@ var loadOrgAsset = function(asset, region){
 };
 
 Methods.loadCauseFixtures = function(asset){
+
   Assets.getText(asset, function(err,res){
     if (err){
       console.log("*Error*: Loading causes data from "+asset);

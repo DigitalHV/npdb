@@ -458,161 +458,6 @@ Schemas.Org = new SimpleSchema({
 		optional: false
 	},
 
-	// ICO :
-	ico 	: { 
-		type 	: String, 
-		optional: true
-	},
-
-	// address { STREET, CITY, STATE, ZIPCODE }
-	address: {
-		type : Schemas.Address,
-		optional: false
-	},
-
-	// GROUP : 0928 = 4 digit number
-	group 			: { 
-		type: Number, 
-		optional: false,
-    	regEx: /\b\d{4}\b/,
-	},
-
-	// SUBSECTION : 03,
-	subsection 		: { 
-		type: String, 
-		optional: false
-	},
-
-	// AFFILIATION : 9,
-	affiliation 	: { 
-		type: String, 
-		optional: false,
-		allowedValues : AllowedValues.Org.Affiliation
-	},
-
-	// CLASSIFICATION 	: 1700,
-	classification 	: { 
-		type: [String], 
-		optional: false,
-		allowedValues : AllowedValues.Org.Classification
-	},
-
-	description 	: { 
-		type: [String], 
-		optional: false
-	},
-
-
-	// RULING  		: 194603,
-	// This is the month and year (YYYYMM) on a ruling or 
-	// determination letter recognizing the organization's 
-	// exempt status. 
-	ruling 			: { 
-		type: Object,
-		optional: false
-	},
-	"ruling.year"  : { type: String, optional: false },
-	"ruling.month" : { type: String, optional: false },
-
-	// DEDUCTIBILITY : 0,
-	deductibility 	: { 
-		type: String, 
-		optional: false, 
-		allowedValues: AllowedValues.Org.Deductibility
-	},
-
-	// FOUNDATION : 10,
-	foundation 		: { 
-		type: String, 
-		optional: false,
-		allowedValues: AllowedValues.Org.Foundation 
-	},
-
-	// ACTIVITY : 000000000,
-	activity 		: { 
-		type: [String], 
-		optional: false
-	},
-
-	// ORGANIZATION : 5,
-	organization 	: { 
-		type: String, 
-		optional: false,
-		allowedValues: AllowedValues.Org.Organization
-	},
-
-	// STATUS : 01,
-	status 			: { 
-		type: String, 
-		optional: false
-	},
-
-	// TAX_PERIOD : ,
-	taxPeriod 		: { 
-		type: String, 
-		optional: true
-	},
-
-	// ASSET_CD : 0,
-	assetCode		: { 
-		type: String, 
-		optional: true
-	},
-
-	// INCOME_CD : 0,
-	incomeCode		: { 
-		type: String, 
-		optional: true
-	},
-
-	// FILING_REQ_CD : 06,
-	filingReqCode 	: { 
-		type: String, 
-		optional: true
-	},
-
-	// PF_FILING_REQ_CD : 0,
-	pfFilingReqCode 	: { 
-		type: String, 
-		optional: true
-	},
-
-	// ACCT_PD : 03,
-	acctPD 			: { 
-		type: String, 
-		optional: true
-	},
-
-	// ASSET_AMT : ,
-	assetAmt 		: { 
-		type: Number, 
-		optional: true
-	},
-
-	// INCOME_AMT : ,
-	incomeAmt 		: { 
-		type: Number, 
-		optional: true
-	},
-
-	// REVENUE_AMT : ,
-	revenueAmt 		: { 
-		type: Number, 
-		optional: true
-	},
-
-	// NTEE_CD : ,
-	nteeCode		: { 
-		type: String, 
-		optional: false
-	},
-
-	// SORT_NAME :
-	sortName 		: { 
-		type: String, 
-		optional: true
-	},
-
 	// REGION mapping (manual)
 	region 			: {
 		type: String, 
@@ -622,7 +467,171 @@ Schemas.Org = new SimpleSchema({
 	fixture: {
 		type: Boolean,
 		optional: true
+	},
+
+
+	// ----- START PROFILE -------------
+	// ICO :
+	profile : {
+		type: Object,
+		optional: false
+	},
+
+	"profile.ico" 	: { 
+		type 	: String, 
+		optional: true
+	},
+
+	// address { STREET, CITY, STATE, ZIPCODE }
+	"profile.address" : {
+		type : Schemas.Address,
+		optional: false
+	},
+
+	// GROUP : 0928 = 4 digit number
+	"profile.group" 			: { 
+		type: Number, 
+		optional: false,
+    	regEx: /\b\d{4}\b/,
+	},
+
+	// SUBSECTION : 03,
+	"profile.subsection" 		: { 
+		type: String, 
+		optional: false
+	},
+
+	// AFFILIATION : 9,
+	"profile.affiliation" 	: { 
+		type: String, 
+		optional: false,
+		allowedValues : AllowedValues.Org.Affiliation
+	},
+
+	// CLASSIFICATION 	: 1700,
+	"profile.classification" 	: { 
+		type: [String], 
+		optional: false,
+		allowedValues : AllowedValues.Org.Classification
+	},
+
+	"profile.description" 	: { 
+		type: [String], 
+		optional: false
+	},
+
+
+	// RULING  		: 194603,
+	// This is the month and year (YYYYMM) on a ruling or 
+	// determination letter recognizing the organization's 
+	// exempt status. 
+	"profile.ruling" 			: { 
+		type: Object,
+		optional: false
+	},
+	"profile.ruling.year"  : { type: String, optional: false },
+	"profile.ruling.month" : { type: String, optional: false },
+
+	// DEDUCTIBILITY : 0,
+	"profile.deductibility" 	: { 
+		type: String, 
+		optional: false, 
+		allowedValues: AllowedValues.Org.Deductibility
+	},
+
+	// FOUNDATION : 10,
+	"profile.foundation" 		: { 
+		type: String, 
+		optional: false,
+		allowedValues: AllowedValues.Org.Foundation 
+	},
+
+	// ACTIVITY : 000000000,
+	"profile.activity" 		: { 
+		type: [String], 
+		optional: false
+	},
+
+	// ORGANIZATION : 5,
+	"profile.organization" 	: { 
+		type: String, 
+		optional: false,
+		allowedValues: AllowedValues.Org.Organization
+	},
+
+	// STATUS : 01,
+	"profile.status" 			: { 
+		type: String, 
+		optional: false
+	},
+
+	// TAX_PERIOD : ,
+	"profile.taxPeriod" 		: { 
+		type: String, 
+		optional: true
+	},
+
+	// ASSET_CD : 0,
+	"profile.assetCode"		: { 
+		type: String, 
+		optional: true
+	},
+
+	// INCOME_CD : 0,
+	"profile.incomeCode"		: { 
+		type: String, 
+		optional: true
+	},
+
+	// FILING_REQ_CD : 06,
+	"profile.filingReqCode" 	: { 
+		type: String, 
+		optional: true
+	},
+
+	// PF_FILING_REQ_CD : 0,
+	"profile.pfFilingReqCode" 	: { 
+		type: String, 
+		optional: true
+	},
+
+	// ACCT_PD : 03,
+	"profile.acctPD" 			: { 
+		type: String, 
+		optional: true
+	},
+
+	// ASSET_AMT : ,
+	"profile.assetAmt" 		: { 
+		type: Number, 
+		optional: true
+	},
+
+	// INCOME_AMT : ,
+	"profile.incomeAmt" 		: { 
+		type: Number, 
+		optional: true
+	},
+
+	// REVENUE_AMT : ,
+	"profile.revenueAmt" 		: { 
+		type: Number, 
+		optional: true
+	},
+
+	// NTEE_CD : ,
+	"profile.nteeCode"		: { 
+		type: String, 
+		optional: false
+	},
+
+	// SORT_NAME :
+	"profile.sortName" 		: { 
+		type: String, 
+		optional: true
 	}
+	// ----- ENDPROFILE -------------
+
 });
 
 Orgs = new Mongo.Collection("orgs");
