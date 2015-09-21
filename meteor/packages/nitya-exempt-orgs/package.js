@@ -23,15 +23,26 @@ Package.onUse(function(api) {
 
   // Add common files
   api.addFiles([
+
     'lib/namespace.js',
+    'lib/utils.js',
+
+    'lib/values/causes.js',
+    'lib/values/orgs.js',
+
     'lib/models/causes.js',
-    'lib/models/orgs.js',
+    'lib/models/orgs.js'
+
   ], ['client','server']);
+
+
 
   // Add server-side files
   api.addFiles([
+
     'lib/server/fixtures.js',
     'lib/server/publications.js'
+    
   ], ['server']);
 
   // Add asset files explicitly for server access
@@ -134,10 +145,12 @@ Package.onUse(function(api) {
   // Export Models and Schemas for external access
   api.export([
     'Schemas',
+    'AllowedValues',
+    'Methods',
+    'Utils',
+
     'Orgs',
     'Causes',
-    'AllowedValues',
-    'Methods'
   ]);
 
 

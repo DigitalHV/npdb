@@ -1,4 +1,5 @@
 AllowedValues.Cause = {};
+
 /*
 ========================================================================
 CAUSE Name
@@ -13,7 +14,6 @@ http://nccsweb.urban.org/PubApps/nteeSearch.php?gQry=all&codeType=NTEE
 
 Each NTEE code maps to a single CAUSE name.
 A CAUSE name can have many NTEE codes mapped to it.
-
 
 NPC Classification: 
 http://nccs.urban.org/classification/NPC.cfm
@@ -56,73 +56,3 @@ AllowedValues.Cause.Name = [
 	"Organizations",
 	"Unknown"
 ];
-
-
-Schemas.Cause= new SimpleSchema({
-
-  _id     : {
-    type  : String, 
-    optional: true
-  },
-
-  createdAt : {
-    type  : Date, 
-    optional: true, 
-    denyUpdate: true,
-    autoValue: function(){ (this.isInsert) ? new Date() : this.unset() }
-  },
-
-  media : {
-    type : Object,
-    optional: true
-  },
-  "media.ref" : {
-    type : String,
-    optional : false
-  },
-  "media.isLink" : {
-    type : Boolean,
-    optional: false
-  },
-  
-  symbol: {
-    type: String,
-    optional:false
-  },
-
-  label: {
-    type: String,
-    optional:false
-  },
-
-  name: {
-    type: String,
-    optional:false,
-	allowedValues: AllowedValues.Cause.Name
-
-  },
-
-  scope: {
-    type: String,
-    optional:true
-  },
-
-  description: {
-    type: String,
-    optional:true
-  },
-
-  keywords: {
-  	type: [String],
-  	optional: true
-  },
-
-  category: {
-    type: String,
-    optional:false
-  }
-
-});
-
-Causes = new Mongo.Collection("causes");
-Causes.attachSchema(Schemas.Cause, {transform: true});

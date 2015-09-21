@@ -3,3 +3,5 @@ Schemas = {};
 AllowedValues = {};
 
 Methods = {};
+
+Utils = {};
