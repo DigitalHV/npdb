@@ -126,6 +126,8 @@ Schemas.Org = new SimpleSchema({
 		optional: false
 	},
 
+
+
 	// REGION mapping (manual)
 	region 			: {
 		type: String, 
@@ -233,6 +235,13 @@ Schemas.Org = new SimpleSchema({
 		optional: false
 	},
 
+	// NTEE_CD : ,
+	"profile.nteeCode"		: { 
+		type: String, 
+		optional: false
+	},
+
+
 	// TAX_PERIOD : ,
 	"profile.taxPeriod" 		: { 
 		type: String, 
@@ -285,12 +294,6 @@ Schemas.Org = new SimpleSchema({
 	"profile.revenueAmt" 		: { 
 		type: Number, 
 		optional: true
-	},
-
-	// NTEE_CD : ,
-	"profile.nteeCode"		: { 
-		type: String, 
-		optional: false
 	},
 
 	// SORT_NAME :

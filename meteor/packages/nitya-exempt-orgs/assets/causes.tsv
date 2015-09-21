@@ -155,40 +155,40 @@ F60	Counseling, Support Groups	Crisis Intervention	Mental Health, Crisis Interve
 F70	Mental Health Disorders	Crisis Intervention	Mental Health, Crisis Intervention
 F80	Mental Health Association, Multipurpose	Crisis Intervention	Mental Health, Crisis Intervention
 F99	Mental Health, Crisis Intervention N.E.C.	Crisis Intervention	Mental Health, Crisis Intervention
-G01	Alliance/Advocacy Organizations	Health	Diseases, Disorders, Health
-G02	Management & Technical Assistance	Health	Diseases, Disorders, Health
-G03	Professional Societies, Associations	Health	Diseases, Disorders, Health
-G05	Research Institutes and/or Public Policy Analysis	Health	Diseases, Disorders, Health
-G11	Single Organization Support	Health	Diseases, Disorders, Health
-G12	Fund Raising and/or Fund Distribution	Health	Diseases, Disorders, Health
-G19	Nonmonetary Support N.E.C.	Health	Diseases, Disorders, Health
-G20	Birth Defects and Genetic Diseases	Health	Diseases, Disorders, Health
-G25	Down Syndrome	Health	Diseases, Disorders, Health
-G30	Cancer	Health	Diseases, Disorders, Health
-G40	Diseases of Specific Organs	Health	Diseases, Disorders, Health
-G41	Eye Diseases, Blindness and Vision Impairments	Health	Diseases, Disorders, Health
-G42	Ear and Throat Diseases	Health	Diseases, Disorders, Health
-G43	Heart and Circulatory System Diseases, Disorders	Health	Diseases, Disorders, Health
-G44	Kidney Disease	Health	Diseases, Disorders, Health
-G45	Lung Disease	Health	Diseases, Disorders, Health
-G48	Brain Disorders	Health	Diseases, Disorders, Health
-G50	Nerve, Muscle and Bone Diseases	Health	Diseases, Disorders, Health
-G51	Arthritis	Health	Diseases, Disorders, Health
-G54	Epilepsy	Health	Diseases, Disorders, Health
-G60	Allergy Related Diseases	Health	Diseases, Disorders, Health
-G61	Asthma	Health	Diseases, Disorders, Health
-G70	Digestive Diseases, Disorders	Health	Diseases, Disorders, Health
-G80	Specifically Named Diseases	Health	Diseases, Disorders, Health
-G81	AIDS	Health	Diseases, Disorders, Health
-G83	Alzheimers Disease	Health	Diseases, Disorders, Health
-G84	Autism	Health	Diseases, Disorders, Health
-G90	Health	Health	Diseases, Disorders, Health
-G92	Biomedicine, Bioengineering	Health	Diseases, Disorders, Health
-G94	Geriatrics	Health	Diseases, Disorders, Health
-G96	Neurology, Neuroscience	Health	Diseases, Disorders, Health
-G98	Pediatrics	Health	Diseases, Disorders, Health
-G9B	Surgery	Health	Diseases, Disorders, Health
-G99	Diseases, Disorders, Health N.E.C.	Health	Diseases, Disorders, Health
+G01	Alliance/Advocacy Organizations	Health	Diseases, Disorders, Medical Disciplines
+G02	Management & Technical Assistance	Health	Diseases, Disorders, Medical Disciplines
+G03	Professional Societies, Associations	Health	Diseases, Disorders, Medical Disciplines
+G05	Research Institutes and/or Public Policy Analysis	Health	Diseases, Disorders, Medical Disciplines
+G11	Single Organization Support	Health	Diseases, Disorders, Medical Disciplines
+G12	Fund Raising and/or Fund Distribution	Health	Diseases, Disorders, Medical Disciplines
+G19	Nonmonetary Support N.E.C.	Health	Diseases, Disorders, Medical Disciplines
+G20	Birth Defects and Genetic Diseases	Health	Diseases, Disorders, Medical Disciplines
+G25	Down Syndrome	Health	Diseases, Disorders, Medical Disciplines
+G30	Cancer	Health	Diseases, Disorders, Medical Disciplines
+G40	Diseases of Specific Organs	Health	Diseases, Disorders, Medical Disciplines
+G41	Eye Diseases, Blindness and Vision Impairments	Health	Diseases, Disorders, Medical Disciplines
+G42	Ear and Throat Diseases	Health	Diseases, Disorders, Medical Disciplines
+G43	Heart and Circulatory System Diseases, Disorders	Health	Diseases, Disorders, Medical Disciplines
+G44	Kidney Disease	Health	Diseases, Disorders, Medical Disciplines
+G45	Lung Disease	Health	Diseases, Disorders, Medical Disciplines
+G48	Brain Disorders	Health	Diseases, Disorders, Medical Disciplines
+G50	Nerve, Muscle and Bone Diseases	Health	Diseases, Disorders, Medical Disciplines
+G51	Arthritis	Health	Diseases, Disorders, Medical Disciplines
+G54	Epilepsy	Health	Diseases, Disorders, Medical Disciplines
+G60	Allergy Related Diseases	Health	Diseases, Disorders, Medical Disciplines
+G61	Asthma	Health	Diseases, Disorders, Medical Disciplines
+G70	Digestive Diseases, Disorders	Health	Diseases, Disorders, Medical Disciplines
+G80	Specifically Named Diseases	Health	Diseases, Disorders, Medical Disciplines
+G81	AIDS	Health	Diseases, Disorders, Medical Disciplines
+G83	Alzheimers Disease	Health	Diseases, Disorders, Medical Disciplines
+G84	Autism	Health	Diseases, Disorders, Medical Disciplines
+G90	Health	Health	Diseases, Disorders, Medical Disciplines
+G92	Biomedicine, Bioengineering	Health	Diseases, Disorders, Medical Disciplines
+G94	Geriatrics	Health	Diseases, Disorders, Medical Disciplines
+G96	Neurology, Neuroscience	Health	Diseases, Disorders, Medical Disciplines
+G98	Pediatrics	Health	Diseases, Disorders, Medical Disciplines
+G9B	Surgery	Health	Diseases, Disorders, Medical Disciplines
+G99	Diseases, Disorders, Medical Disciplines N.E.C.	Health	Diseases, Disorders, Medical Disciplines
 H01	Alliance/Advocacy Organizations	Medical Research	Medical Research
 H02	Management & Technical Assistance	Medical Research	Medical Research
 H03	Professional Societies, Associations	Medical Research	Medical Research
