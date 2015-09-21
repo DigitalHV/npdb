@@ -30,6 +30,7 @@ Package.onUse(function(api) {
     'lib/values/causes.js',
     'lib/values/orgs.js',
 
+    'lib/models/address.js',
     'lib/models/causes.js',
     'lib/models/orgs.js'
 
