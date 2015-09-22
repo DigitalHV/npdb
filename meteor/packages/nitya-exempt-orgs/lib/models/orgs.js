@@ -98,6 +98,145 @@
 	}
 ========================================================================
 */
+/*
+========================================================================
+ORG Schema
+  _id         = "cause_ntee" string, uniquely identifies cause
+  createdAt   = database insertion date
+  ein      	  = unique identifier
+  name        = organization name
+  profile     = profile object containing IRS provided data
+	  	ico = in-charge-of 
+	  	address = street/city/state/zipcode
+	  	group = 4-digit number
+	  	subsection = 2-digit code
+	  	affiliaition = 1-digit code
+	  	classification = 4 digits
+	  	description = derived from subsection + classification
+	  	ruling = object holding year/month org was granted exempt status
+	  	   year = year of exempt grant
+	  	   month = month of exempt grant
+	  	deductibility = 1 digit (enum)
+	  	foundation = 2 digit (enum)
+	  	activity = up to 4 codes (standard)
+	  	organization = 1 digit code (enum)
+	  	status = 2 digit code (enum)
+	  	nteeCode
+	  	taxPeriod
+	  	assetCode
+	  	incomeCode
+	  	filingReqCode
+	  	pfFilingReqCode
+	  	acctPD
+	  	assetAmt
+	  	incomeAmt
+	  	revenueAmt
+	  	sortName
+  region      = region org is associated with
+  media       {
+    ref       = can be direct URL or indirect ID (to Media object in DB)
+    isLink    = true if URL, false if ID
+  }
+  tags        = keywords associated with just the org
+
+========================================================================{
+	"_id" : "org_000019818",
+	"ein" : "000019818",
+	"name" : "PALMER SECOND BAPTIST CHURCH",
+	"profile" : {
+		"address" : {
+			"street" : "1050 THORNDIKE ST",
+			"city" : "PALMER",
+			"state" : "MA",
+			"zip" : "01069-1507",
+			"country" : "United States"
+		},
+		"group" : 3125,
+		"subsection" : "03",
+		"affiliation" : "9",
+		"classification" : [
+			"7"
+		],
+		"ruling" : {
+			"year" : "1955",
+			"month" : "04"
+		},
+		"deductibility" : "1",
+		"foundation" : "10",
+		"activity" : [
+			"001",
+			"000",
+			"000"
+		],
+		"organization" : "5",
+		"status" : "01",
+		"assetCode" : "0",
+		"incomeCode" : "0",
+		"filingReqCode" : "06",
+		"pfFilingReqCode" : "0",
+		"acctPD" : "12",
+		"assetAmt" : 0,
+		"incomeAmt" : 0,
+		"revenueAmt" : 0,
+		"nteeCode" : "Z99",
+		"sortName" : "3514",
+		"description" : [
+			"Religious Organization"
+		]
+	},
+	"region" : "1-Northeast",
+	"tags" : null,
+	"media" : null,
+	"createdAt" : ISODate("2015-09-22T14:04:24.589Z")
+}
+========================================================================
+                            // auto-generated
+  _id       : String      
+  createdAt : Date 
+                            // mandatory
+  ein    	: String      
+  name     	: String
+  profile   : Object
+  		address
+  		group
+  		subsection
+  		affiliation
+  		classification
+  		description
+  		ruling { year, month }
+  		foundation
+  		deductibility
+  		foundation
+  		activity
+  		organization
+  		status
+  		nteeCode
+
+                            // optional
+  profile
+  		taxPeriod
+  		assetCode
+  		incomeCode
+  		filingReqCode
+  		pfFilingReqCode
+  		acctPD
+  		assetAmt
+  		incomeAmt
+  		revenueAmt
+  		sortName
+
+  region    : String
+  media     :
+  {   
+    ref     : String
+    isLink  : Boolean
+  },
+  tags        : [ String ]
+
+
+
+========================================================================
+*/
 Schemas.Org = new SimpleSchema({
 
 	_id :  {
@@ -127,6 +266,18 @@ Schemas.Org = new SimpleSchema({
 	},
 
 
+	media : {
+		type : Object,
+	    optional: true
+	},
+	"media.ref" : {	
+		type : String,
+		optional : false
+	},
+	"media.isLink" : {
+		type : Boolean,
+		optional: false
+	},
 
 	// REGION mapping (manual)
 	region 			: {
@@ -134,10 +285,10 @@ Schemas.Org = new SimpleSchema({
 		optional: true
 	},
 
-	fixture: {
-		type: Boolean,
-		optional: true
-	},
+	tags: {
+  		type: [String],
+  		optional: true
+  	},
 
 
 	// ----- START PROFILE -------------
@@ -147,161 +298,161 @@ Schemas.Org = new SimpleSchema({
 		optional: false
 	},
 
-	"profile.ico" 	: { 
-		type 	: String, 
-		optional: true
-	},
+		"profile.ico" 	: { 
+			type 	: String, 
+			optional: true
+		},
 
-	// address { STREET, CITY, STATE, ZIPCODE }
-	"profile.address" : {
-		type : Schemas.Address,
-		optional: false
-	},
+		// address { STREET, CITY, STATE, ZIPCODE }
+		"profile.address" : {
+			type : Schemas.Address,
+			optional: false
+		},
 
-	// GROUP : 0928 = 4 digit number
-	"profile.group" 			: { 
-		type: Number, 
-		optional: false,
-    	regEx: /\b\d{4}\b/,
-	},
+		// GROUP : 0928 = 4 digit number
+		"profile.group" 			: { 
+			type: Number, 
+			optional: false,
+	    	regEx: /\b\d{4}\b/,
+		},
 
-	// SUBSECTION : 03,
-	"profile.subsection" 		: { 
-		type: String, 
-		optional: false
-	},
+		// SUBSECTION : 03,
+		"profile.subsection" 		: { 
+			type: String, 
+			optional: false
+		},
 
-	// AFFILIATION : 9,
-	"profile.affiliation" 	: { 
-		type: String, 
-		optional: false,
-		allowedValues : AllowedValues.Org.Affiliation
-	},
+		// AFFILIATION : 9,
+		"profile.affiliation" 	: { 
+			type: String, 
+			optional: false,
+			allowedValues : AllowedValues.Org.Affiliation
+		},
 
-	// CLASSIFICATION 	: 1700,
-	"profile.classification" 	: { 
-		type: [String], 
-		optional: false,
-		allowedValues : AllowedValues.Org.Classification
-	},
+		// CLASSIFICATION 	: 1700,
+		"profile.classification" 	: { 
+			type: [String], 
+			optional: false,
+			allowedValues : AllowedValues.Org.Classification
+		},
 
-	"profile.description" 	: { 
-		type: [String], 
-		optional: false
-	},
-
-
-	// RULING  		: 194603,
-	// This is the month and year (YYYYMM) on a ruling or 
-	// determination letter recognizing the organization's 
-	// exempt status. 
-	"profile.ruling" 			: { 
-		type: Object,
-		optional: false
-	},
-	"profile.ruling.year"  : { type: String, optional: false },
-	"profile.ruling.month" : { type: String, optional: false },
-
-	// DEDUCTIBILITY : 0,
-	"profile.deductibility" 	: { 
-		type: String, 
-		optional: false, 
-		allowedValues: AllowedValues.Org.Deductibility
-	},
-
-	// FOUNDATION : 10,
-	"profile.foundation" 		: { 
-		type: String, 
-		optional: false,
-		allowedValues: AllowedValues.Org.Foundation 
-	},
-
-	// ACTIVITY : 000000000,
-	"profile.activity" 		: { 
-		type: [String], 
-		optional: false
-	},
-
-	// ORGANIZATION : 5,
-	"profile.organization" 	: { 
-		type: String, 
-		optional: false,
-		allowedValues: AllowedValues.Org.Organization
-	},
-
-	// STATUS : 01,
-	"profile.status" 			: { 
-		type: String, 
-		optional: false
-	},
-
-	// NTEE_CD : ,
-	"profile.nteeCode"		: { 
-		type: String, 
-		optional: false
-	},
+		"profile.description" 	: { 
+			type: [String], 
+			optional: false
+		},
 
 
-	// TAX_PERIOD : ,
-	"profile.taxPeriod" 		: { 
-		type: String, 
-		optional: true
-	},
+		// RULING  		: 194603,
+		// This is the month and year (YYYYMM) on a ruling or 
+		// determination letter recognizing the organization's 
+		// exempt status. 
+		"profile.ruling" 			: { 
+			type: Object,
+			optional: false
+		},
+		"profile.ruling.year"  : { type: String, optional: false },
+		"profile.ruling.month" : { type: String, optional: false },
 
-	// ASSET_CD : 0,
-	"profile.assetCode"		: { 
-		type: String, 
-		optional: true
-	},
+		// DEDUCTIBILITY : 0,
+		"profile.deductibility" 	: { 
+			type: String, 
+			optional: false, 
+			allowedValues: AllowedValues.Org.Deductibility
+		},
 
-	// INCOME_CD : 0,
-	"profile.incomeCode"		: { 
-		type: String, 
-		optional: true
-	},
+		// FOUNDATION : 10,
+		"profile.foundation" 		: { 
+			type: String, 
+			optional: false,
+			allowedValues: AllowedValues.Org.Foundation 
+		},
 
-	// FILING_REQ_CD : 06,
-	"profile.filingReqCode" 	: { 
-		type: String, 
-		optional: true
-	},
+		// ACTIVITY : 000000000,
+		"profile.activity" 		: { 
+			type: [String], 
+			optional: false
+		},
 
-	// PF_FILING_REQ_CD : 0,
-	"profile.pfFilingReqCode" 	: { 
-		type: String, 
-		optional: true
-	},
+		// ORGANIZATION : 5,
+		"profile.organization" 	: { 
+			type: String, 
+			optional: false,
+			allowedValues: AllowedValues.Org.Organization
+		},
 
-	// ACCT_PD : 03,
-	"profile.acctPD" 			: { 
-		type: String, 
-		optional: true
-	},
+		// STATUS : 01,
+		"profile.status" 			: { 
+			type: String, 
+			optional: false
+		},
 
-	// ASSET_AMT : ,
-	"profile.assetAmt" 		: { 
-		type: Number, 
-		optional: true
-	},
+		// NTEE_CD : ,
+		"profile.nteeCode"		: { 
+			type: String, 
+			optional: false
+		},
 
-	// INCOME_AMT : ,
-	"profile.incomeAmt" 		: { 
-		type: Number, 
-		optional: true
-	},
 
-	// REVENUE_AMT : ,
-	"profile.revenueAmt" 		: { 
-		type: Number, 
-		optional: true
-	},
+		// TAX_PERIOD : ,
+		"profile.taxPeriod" 		: { 
+			type: String, 
+			optional: true
+		},
 
-	// SORT_NAME :
-	"profile.sortName" 		: { 
-		type: String, 
-		optional: true
-	}
-	// ----- ENDPROFILE -------------
+		// ASSET_CD : 0,
+		"profile.assetCode"		: { 
+			type: String, 
+			optional: true
+		},
+
+		// INCOME_CD : 0,
+		"profile.incomeCode"		: { 
+			type: String, 
+			optional: true
+		},
+
+		// FILING_REQ_CD : 06,
+		"profile.filingReqCode" 	: { 
+			type: String, 
+			optional: true
+		},
+
+		// PF_FILING_REQ_CD : 0,
+		"profile.pfFilingReqCode" 	: { 
+			type: String, 
+			optional: true
+		},
+
+		// ACCT_PD : 03,
+		"profile.acctPD" 			: { 
+			type: String, 
+			optional: true
+		},
+
+		// ASSET_AMT : ,
+		"profile.assetAmt" 		: { 
+			type: Number, 
+			optional: true
+		},
+
+		// INCOME_AMT : ,
+		"profile.incomeAmt" 		: { 
+			type: Number, 
+			optional: true
+		},
+
+		// REVENUE_AMT : ,
+		"profile.revenueAmt" 		: { 
+			type: Number, 
+			optional: true
+		},
+
+		// SORT_NAME :
+		"profile.sortName" 		: { 
+			type: String, 
+			optional: true
+		}
+		// ----- ENDPROFILE -------------
 
 });
 

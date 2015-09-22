@@ -110,13 +110,13 @@ var parseRecord = function (record, region){
 
 
 
+var errCount=0, causeCount=0, orgCount=0;
+
 /*
 ========================================================================
-LOAD FIXTURE DATA
+LOAD ORG FIXTURES
 ========================================================================
 */
-var errCount=0;
-
 Methods.loadOrgFixtures = function(){
   console.log("Loading org fixtures..");
   errCount=0;
@@ -250,8 +250,6 @@ Methods.loadOrgFixtures = function(){
   return errCount;
 };
 
-var causeCount=0, orgCount=0;
-
 var loadOrgAsset = function(asset, region){
   Assets.getText(asset, function(err, res){
     if (err){
@@ -268,6 +266,8 @@ var loadOrgAsset = function(asset, region){
 
       try { 
         org = parseRecord(record,region);  
+        org.tags = null;
+        org.media = null;
       } 
       catch(err){
         console.log(err);
@@ -284,8 +284,9 @@ var loadOrgAsset = function(asset, region){
         //return;
       }
 
+      org._id = "org_"+org.ein;
+      org.createdAt = new Date();
       org.fixture = true;
-      org._id = "org"+org.ein;
       try { 
         org._id = Orgs.insert(org); 
         orgCount++;
@@ -308,6 +309,12 @@ var loadOrgAsset = function(asset, region){
   });
 };
 
+
+/*
+========================================================================
+LOAD CAUSE FIXTURES
+========================================================================
+*/
 Methods.loadCauseFixtures = function(asset){
 
   Assets.getText(asset, function(err,res){
@@ -326,11 +333,18 @@ Methods.loadCauseFixtures = function(asset){
         symbol : item[0],
         label  : item[1],
         name   : item[2],
-        category: item[3]
+        category: item[3],
+
+        media: null,
+        tags : null,
+        description : null,
+        naics : null,
+        scope : null,
       };
       //console.log("Cause: ",cause);
 
       check(cause, Schemas.Cause);
+
       cause._id = "ntee_"+item[0];
       cause.createdAt = new Date();
       cause._id = Causes.insert(cause);
@@ -354,7 +368,7 @@ Meteor.startup(function(){
 
   console.log("Clearing Orgs fixtures");
   Causes.remove({});
-  Orgs.remove({ fixture:true });
+  Orgs.remove({});
 
   console.log("Adding Causes fixtures");
   Methods.loadCauseFixtures('assets/causes.tsv');

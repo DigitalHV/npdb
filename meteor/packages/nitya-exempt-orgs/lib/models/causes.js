@@ -22,14 +22,18 @@ CAUSE Schema
     ref       = can be direct URL or indirect ID (to Media object in DB)
     isLink    = true if URL, false if ID
   }
-
-========================================================================
-    "_id"     : "ntee_X50",
-  "symbol"    : "X50",
-  "label"     : "Buddhist",
-  "name"      : "Religion",
-  "category"  : "Religion-Related, Spiritual Development",
-  "createdAt" : ISODate("2015-09-20T11:56:40.878Z")
+========================================================================{
+  "_id"     : "ntee_A01",
+  "symbol"  : "A01",
+  "label"   : "Alliance/Advocacy Organizations",
+  "name"    : "Arts",
+  "category" : "Arts, Culture and Humanities",
+  "media"   : null,
+  "tags"    : null,
+  "description" : null,
+  "naics"   : null,
+  "scope"   : null,
+  "createdAt" : ISODate("2015-09-22T13:56:35.684Z")
 ========================================================================
                             // auto-generated
   _id       : String      
@@ -117,7 +121,7 @@ Schemas.Cause= new SimpleSchema({
     optional:true
   },
 
-  keywords: {
+  tags: {
   	type: [String],
   	optional: true
   }
